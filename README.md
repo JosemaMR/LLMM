@@ -4,8 +4,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 ## Tema 0 - Introducción
 | Ejercicio | Descripción |
 |----|----|
-| [Pequeña Web]() | Breve descripción 0.1 |
-| [Biblioteca XML](./TEMA%200/Lawrence.html) | Breve descripción 0.2 |
+| [Pequeña Web](./TEMA%200/Lawrence.html) | Breve descripción 0.1 |
+| [Biblioteca XML](./TEMA%200/library.xml) | Breve descripción 0.2 |
 | [SVG]()
 ## Tema 1 - HTML 
 | Ejercicio | Descripción |
