@@ -1,13 +1,43 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Primera Guerra Mundial</title>
-</head>
-<body>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<h1>Lawrence de Arabia</h1>
-<p>Lawrence de Arabia fue un británico que empezó como arqueólogo en Oriente Próximo y terminó convirtiéndose en un personaje clave en la Primera Guerra Mundial. Allí ayudó a organizar y liderar la Revolución Árabe contra los turcos otomanos, usando tácticas de guerrilla y uniendo a tribus que normalmente estaban enfrentadas.</p>
+<library>
 
-</body>
-</html>
+	<book>
+
+		<name> World War Hulk </name>
+
+		<authors> John Romita Jr., Greg Pak </authors>
+
+		<launchDate> 2022 </launchDate>
+
+		<editorial> Marvel Comics </editorial>
+
+		<pages> 264 </pages>
+
+		<summary> Exiled by a group of would-be heroes to the planet Sakaar and after 				conquering that world, Hulk returns to Earth... and seeks revenge against Iron 			Man, Reed Richards, Doctor Strange, Black Bolt and anyone else who gets in his 			way! Stronger than ever, and with the help of a monstrous company of allies, 			this time the Green Goliath wants to tear our home in two.
+		</summary>
+
+		<price> 18 </price>
+
+	</book>
+
+	<book>
+
+		<name> Batman: The dark knight returns </name>
+
+		<authors> Frank Miller </authors>
+
+		<launchDate> 1986 </launchDate>
+
+		<editorial> DC Comics </editorial>
+
+		<pages> 184 </pages>
+
+		<summary> After years of retirement, Bruce Wayne returns to the Batman role in a 			Gotham City dominated by crime and corruption. Facing old enemies and 				confronting the authorities who try to control him, Batman fights to impose 			his justice, challenging the boundaries between hero and vigilante, and 			proving that even in the deepest darkness, a symbol can inspire hope… and 			fear.
+		</summary>
+
+		<price> 30 </price>
+
+	</book>
+
+</library>
