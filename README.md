@@ -1,5 +1,5 @@
 # Nombre del módulo
-Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes de Marcas (LLMM)**
+Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes de Marcas**, del _IES La Marisma_
 
 ## Tema 0 - Introducción
 | Ejercicio | Descripción |
