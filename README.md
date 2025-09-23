@@ -5,7 +5,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | Ejercicio | Descripción |
 |----|----|
 | [Pequeña Web]() | Breve descripción 0.1 |
-| [Biblioteca XML]() | Breve descripción 0.2 |
+| [Biblioteca XML](./TEMA 0/Lawrence.html) | Breve descripción 0.2 |
 | [SVG]()
 ## Tema 1 - HTML 
 | Ejercicio | Descripción |
