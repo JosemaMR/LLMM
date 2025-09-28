@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My first SVG archive</title>
-  <meta charset="UTF-8">
-</head>
-<body>
-
-<h1>My first SVG</h1>
-
+<?xml version="1.0" encoding="UTF-8"?>
 <svg height="320" width="500" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="10,100 10 190,150 190,50
-  " style="fill:brown;stroke:orange;stroke-width:6" />
+  <polygon points="10,100 10,190 150,190 50,100"
+           style="fill:brown;stroke:orange;stroke-width:6" />
 </svg>
-
-
-</body>
-</html>
