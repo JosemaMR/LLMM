@@ -15,9 +15,9 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 2](./TEMA1/ejercicio2html.html) | Breve descripción 1.2 |
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Breve descripción 1.2 |
 | [Ejercicio 4](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Breve descripción 1.2 |
-| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Breve descripción 1.2 |
-| [Ejercicio 7](./TEMA1/ejercicio7html.html) | Breve descripción 1.2 |
+| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Página con párrafos, alineaciones y encabezados |
+| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Ahora con distintos formatos |
+| [Ejercicio 7](./TEMA1/ejercicio7html.html) | Ahora con fondo y color |
 | [Ejercicio 8](./TEMA1/ejercicio8html.html) | Breve descripción 1.2 |
 | [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
 | Ejercicio 10 | Breve descripción 1.2 |
