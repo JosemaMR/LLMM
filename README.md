@@ -11,5 +11,5 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 ## Tema 1 - HTML 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| Ejercicio 1.1 | Breve descripción 1.1 |
-| Ejercicio 1.2 | Breve descripción 1.2 |
+| [Ejercicio 1](./TEMA%201/ejercicio1.html) | Breve descripción 1.1 |
+| Ejercicio 2 | Breve descripción 1.2 |
