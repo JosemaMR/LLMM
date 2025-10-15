@@ -13,3 +13,10 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 |-----------|-------------|
 | [Ejercicio 1](./TEMA1/ejercicio1html.html) | Página con cabeceras y distintos tipos de texto |
 | Ejercicio 2 | Breve descripción 1.2 |
+| Ejercicio 3 | Breve descripción 1.2 |
+| Ejercicio 4 | Breve descripción 1.2 |
+| Ejercicio 5 | Breve descripción 1.2 |
+| Ejercicio 6 | Breve descripción 1.2 |
+| Ejercicio 7 | Breve descripción 1.2 |
+| [Ejercicio 8](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
+| Ejercicio 9 | Breve descripción 1.2 |
