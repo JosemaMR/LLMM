@@ -22,20 +22,20 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 7](./TEMA1/ejercicio7html.html) | Ahora con fondo y color |
 | [Ejercicio 8](./TEMA1/ejercicio8html.html) | Página con enlace a ejercicios HTML CSS|
 | [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
-| [Ejercicio 10](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 11](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 12](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 13](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 14](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 15](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 16](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 17](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 18](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 19](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 20](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 21](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 22](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
-| [Ejercicio 23](./TEMA1/ejercicio4html.html) | Breve descripción 1.2 |
+| [Ejercicio 10](./TEMA1/ejercicio10html.html) | Breve descripción 1.2 |
+| [Ejercicio 11](./TEMA1/ejercicio11html.html) | Breve descripción 1.2 |
+| [Ejercicio 12](./TEMA1/ejercicio12html.html) | Breve descripción 1.2 |
+| [Ejercicio 13](./TEMA1/ejercicio13html.html) | Breve descripción 1.2 |
+| [Ejercicio 14](./TEMA1/ejercicio14html.html) | Breve descripción 1.2 |
+| [Ejercicio 15](./TEMA1/ejercicio15html.html) | Breve descripción 1.2 |
+| [Ejercicio 16](./TEMA1/ejercicio16html.html) | Breve descripción 1.2 |
+| [Ejercicio 17](./TEMA1/ejercicio17html.html) | Breve descripción 1.2 |
+| [Ejercicio 18](./TEMA1/ejercicio18html.html) | Breve descripción 1.2 |
+| [Ejercicio 19](./TEMA1/ejercicio19html.html) | Breve descripción 1.2 |
+| [Ejercicio 20](./TEMA1/ejercicio20html.html) | Breve descripción 1.2 |
+| [Ejercicio 21](./TEMA1/ejercicio21html.html) | Breve descripción 1.2 |
+| [Ejercicio 22](./TEMA1/ejercicio22html.html) | Breve descripción 1.2 |
+| [Ejercicio 23](./TEMA1/ejercicio23html.html) | Breve descripción 1.2 |
 | [Ejercicio 24](./TEMA1/ejercicio24html.html) | Breve descripción 1.2 |
 | [Ejercicio 25](./TEMA1/ejercicio25html.html) | Breve descripción 1.2 |
 | [Ejercicio 26](./TEMA1/ejercicio26html.html) | Breve descripción 1.2 |
