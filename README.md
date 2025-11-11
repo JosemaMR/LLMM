@@ -24,13 +24,13 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
 | [Ejercicio 10](./TEMA1/ejercicio10html.html) | Lista simple formateada |
 | [Ejercicio 11](./TEMA1/ejercicio11html.html) | Lista compleja formateada |
-| [Ejercicio 12](./TEMA1/ejercicio12html.html) | Breve descripción 1.2 |
-| [Ejercicio 13](./TEMA1/ejercicio13html.html) | Breve descripción 1.2 |
-| [Ejercicio 14](./TEMA1/ejercicio14html.html) | Breve descripción 1.2 |
-| [Ejercicio 15](./TEMA1/ejercicio15html.html) | Breve descripción 1.2 |
-| [Ejercicio 16](./TEMA1/ejercicio16html.html) | Breve descripción 1.2 |
-| [Ejercicio 17](./TEMA1/ejercicio17html.html) | Breve descripción 1.2 |
-| [Ejercicio 18](./TEMA1/ejercicio18html.html) | Breve descripción 1.2 |
+| [Ejercicio 12](./TEMA1/ejercicio12html.html) | Estilos HTML|
+| [Ejercicio 13](./TEMA1/ejercicio13html.html) | Bordes HTML|
+| [Ejercicio 14](./TEMA1/ejercicio14html.html) | Margin y padding |
+| [Ejercicio 15](./TEMA1/ejercicio15html.html) | Tabla pedido |
+| [Ejercicio 16](./TEMA1/ejercicio16html.html) | Horario |
+| [Ejercicio 17](./TEMA1/ejercicio17html.html) | Tabla búsqueda dispositivos |
+| [Ejercicio 18](./TEMA1/ejercicio18html.html) | Tabla comparativa dispositivos |
 | [Ejercicio 19](./TEMA1/ejercicio19html.html) | Breve descripción 1.2 |
 | [Ejercicio 20](./TEMA1/ejercicio20html.html) | Breve descripción 1.2 |
 | [Ejercicio 21](./TEMA1/ejercicio21html.html) | Breve descripción 1.2 |
