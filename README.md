@@ -29,8 +29,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 14](./TEMA1/ejercicio14html.html) | Margin y padding |
 | [Ejercicio 15](./TEMA1/ejercicio15html.html) | Tabla pedido |
 | [Ejercicio 16](./TEMA1/ejercicio16html.html) | Horario |
-| [Ejercicio 17](./TEMA1/ejercicio17html.html) | Tabla búsqueda dispositivos |
-| [Ejercicio 18](./TEMA1/ejercicio18html.html) | Tabla comparativa dispositivos |
+| [Ejercicio 17](./TEMA1/EJERCICIO17/ejercicio17html.html) | Tabla búsqueda dispositivos |
+| [Ejercicio 18](./TEMA1/EJERCICIO18/ejercicio18html.html) | Tabla comparativa dispositivos |
 | [Ejercicio 19](./TEMA1/ejercicio19html.html) | Breve descripción 1.2 |
 | [Ejercicio 20](./TEMA1/ejercicio20html.html) | Breve descripción 1.2 |
 | [Ejercicio 21](./TEMA1/ejercicio21html.html) | Breve descripción 1.2 |
