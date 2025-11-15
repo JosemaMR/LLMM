@@ -31,7 +31,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 16](./TEMA1/ejercicio16html.html) | Horario |
 | [Ejercicio 17](./TEMA1/EJERCICIO17/ejercicio17html.html) | Tabla búsqueda dispositivos |
 | [Ejercicio 18](./TEMA1/EJERCICIO18/ejercicio18html.html) | Tabla comparativa dispositivos |
-| [Ejercicio 19](./TEMA1/ejercicio19html.html) | Breve descripción 1.2 |
+| [Ejercicio 19](./TEMA1/EJERCICIO19/ejercicio19html.html) | Imágenes flotantes |
 | [Ejercicio 20](./TEMA1/ejercicio20html.html) | Breve descripción 1.2 |
 | [Ejercicio 21](./TEMA1/ejercicio21html.html) | Breve descripción 1.2 |
 | [Ejercicio 22](./TEMA1/ejercicio22html.html) | Breve descripción 1.2 |
