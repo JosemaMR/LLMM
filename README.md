@@ -38,9 +38,9 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 23](./TEMA1/ejercicio23html.html) | Breve descripción 1.2 |
 | [Ejercicio 24](./TEMA1/ejercicio24html.html) | Breve descripción 1.2 |
 | [Ejercicio 25](./TEMA1/ejercicio25html.html) | Breve descripción 1.2 |
-| [Ejercicio 26](./TEMA1/ejercicio26html.html) | Video |
-| [Ejercicio 27](./TEMA1/ejercicio26html.html) | Audio |
-| [Ejercicio 28](./TEMA1/ejercicio26html.html) | Video de Youtube |
+| [Ejercicio 26](./TEMA1/EJERCICIO26/ejercicio26html.html) | Video |
+| [Ejercicio 27](./TEMA1/EJERCICIO27/ejercicio27html.html) | Audio |
+| [Ejercicio 28](./TEMA1/EJERCICIO28/ejercicio28html.html) | Video de Youtube |
 | [Ejercicio 30](./TEMA1/ejercicio26html.html) | Breve descripción 1.2 |
 
 
