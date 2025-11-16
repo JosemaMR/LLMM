@@ -31,17 +31,17 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 16](./TEMA1/ejercicio16html.html) | Horario |
 | [Ejercicio 17](./TEMA1/EJERCICIO17/ejercicio17html.html) | Tabla búsqueda dispositivos |
 | [Ejercicio 18](./TEMA1/EJERCICIO18/ejercicio18html.html) | Tabla comparativa dispositivos |
-| [Ejercicio 19](./TEMA1/EJERCICIO19/ejercicio19html.html) | Imágenes flotantes |
-| [Ejercicio 20](./TEMA1/EJERCICIO20/ejercicio20html.html) | Breve descripción 1.2 |
-| [Ejercicio 21](./TEMA1/EJERCICIO21/ejercicio21html.html) | Breve descripción 1.2 |
-| [Ejercicio 22](./TEMA1/EJERCICIO22/ejercicio22html.html) | Breve descripción 1.2 |
-| [Ejercicio 23](./TEMA1/ejercicio23html.html) | Breve descripción 1.2 |
-| [Ejercicio 24](./TEMA1/ejercicio24html.html) | Breve descripción 1.2 |
-| [Ejercicio 25](./TEMA1/ejercicio25html.html) | Breve descripción 1.2 |
+| [Ejercicio 19](./TEMA1/EJERCICIO19/ejercicio19html.html) | Imágenes posicionadas |
+| [Ejercicio 20](./TEMA1/EJERCICIO20/ejercicio20html.html) | Imágenes flotantes |
+| [Ejercicio 21](./TEMA1/EJERCICIO21/ejercicio21html.html) | Imágenes en miniatura |
+| [Ejercicio 22](./TEMA1/EJERCICIO22/ejercicio22html.html) | Favicon |
+| [Ejercicio 23](./TEMA1/ejercicio23html.html) | IFrame |
+| [Ejercicio 24](./TEMA1/ejercicio24html.html) | Formulario |
+| [Ejercicio 25](./TEMA1/ejercicio25html.html) | Formulario |
 | [Ejercicio 26](./TEMA1/EJERCICIO26/ejercicio26html.html) | Video |
 | [Ejercicio 27](./TEMA1/EJERCICIO27/ejercicio27html.html) | Audio |
 | [Ejercicio 28](./TEMA1/EJERCICIO28/ejercicio28html.html) | Video de Youtube |
-| [Ejercicio 30](./TEMA1/ejercicio26html.html) | Breve descripción 1.2 |
+| [Ejercicio 30](./TEMA1/ejercicio26html.html) | Website |
 
 
 ## Tema 2 - CSS
