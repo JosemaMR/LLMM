@@ -1,1 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Web4U - CSS</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #1e1e1e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #00d0ff;
+  letter-spacing: 2px;
+}
+
+/* Create two columns/boxes */
+nav {
+  float: left;
+  width: 25%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a:hover {
+  color: #00a8cc;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f7f7f7;
+  min-height: 350px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.toc-box {
+  background: #e2e2e2;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center; padding-top:10px;">Bienvenido a Web4U</h2>
+
+<header>
+  <h2>CSS</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="svg.html">SVG</a></li>
+      <li><a href="css.html">CSS</a></li> 
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Propiedades CSS Fundamentales</h1>
+    <p>A continuación encontrarás explicaciones y ejemplos de algunas propiedades esenciales de CSS.</p>
+
+    <!-- TABLE OF CONTENTS -->
+    <div class="toc-box">
+      <h2>Tabla de Contenidos</h2>
+      <ul>
+        <li><a href="#color">1. Color y Fondo</a></li>
+        <li><a href="#font">2. Tipografía</a></li>
+        <li><a href="#margin">3. Márgenes y Padding</a></li>
+        <li><a href="#border">4. Bordes</a></li>
+        <li><a href="#flex">5. Flexbox</a></li>
+      </ul>
+    </div>
+
+    <!-- ======================= -->
+    <!--     PROPIEDAD COLOR      -->
+    <!-- ======================= -->
+
+    <h2 id="color">1. Color y Fondo</h2>
+    <p>Define colores de texto y de fondo.</p>
+
+    <pre><code>
+p {
+  color: red;
+  background-color: yellow;
+}
+    </code></pre>
+
+    <p>
+      Más información:  
+      <a href="https://www.w3schools.com/css/css_colors.asp" target="_blank">
+        W3Schools — Colores CSS
+      </a>
+    </p>
+
+    <!-- ======================= -->
+    <!--     PROPIEDAD FONT      -->
+    <!-- ======================= -->
+
+    <h2 id="font">2. Tipografía</h2>
+    <p>Controla el tipo de letra, tamaño y estilo.</p>
+
+    <pre><code>
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+    </code></pre>
+
+    <p>
+      Más información:  
+      <a href="https://www.w3schools.com/css/css_font.asp" target="_blank">
+        W3Schools — Tipografía CSS
+      </a>
+    </p>
+
+    <!-- ======================= -->
+    <!--     PROPIEDAD MARGIN/PADDING -->
+    <!-- ======================= -->
+
+    <h2 id="margin">3. Márgenes y Padding</h2>
+    <p>Define espacios externos e internos de los elementos.</p>
+
+    <pre><code>
+div {
+  margin: 20px;
+  padding: 10px;
+}
+    </code></pre>
+
+    <p>
+      Más información:  
+      <a href="https://www.w3schools.com/css/css_margin.asp" target="_blank">
+        W3Schools — Márgenes y Padding
+      </a>
+    </p>
+
+    <!-- ======================= -->
+    <!--     PROPIEDAD BORDER    -->
+    <!-- ======================= -->
+
+    <h2 id="border">4. Bordes</h2>
+    <p>Permite definir bordes de los elementos.</p>
+
+    <pre><code>
+div {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+    </code></pre>
+
+    <p>
+      Más información:  
+      <a href="https://www.w3schools.com/css/css_border.asp" target="_blank">
+        W3Schools — Bordes CSS
+      </a>
+    </p>
+
+    <!-- ======================= -->
+    <!--     PROPIEDAD FLEXBOX   -->
+    <!-- ======================= -->
+
+    <h2 id="flex">5. Flexbox</h2>
+    <p>Diseño flexible para organizar elementos en filas o columnas.</p>
+
+    <pre><code>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    </code></pre>
+
+    <p>
+      Más información:
+      <a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">
+        W3Schools — Flexbox CSS
+      </a>
+    </p>
+
+  </article>
+</section>
+
+<footer>
+  <p>Web4U © 2025 · José Manuel Moreno Raya.</p>
+</footer>
+
+</body>
+</html>
