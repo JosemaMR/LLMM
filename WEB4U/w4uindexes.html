@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Web4U - Lenguajes de Marcas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #1e1e1e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #00d0ff;
+  letter-spacing: 2px;
+}
+
+/* Create two columns/boxes */
+nav {
+  float: left;
+  width: 25%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a:hover {
+  color: #00a8cc;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f7f7f7;
+  min-height: 350px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Miniaturas de lenguajes */
+.language-box {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.language-box:hover {
+  transform: scale(1.05);
+}
+
+.language-box img {
+  width: 80px;
+  height: 80px;
+}
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center; padding-top:10px;">Bienvenido a Web4U</h2>
+
+<header>
+  <h2>Lenguajes de Marcas</h2>
+</header>
+
+<section>
+
+  
+  <article>
+    <h1>Introducción a los Lenguajes de Marcas</h1>
+    <p>
+      Los lenguajes de marcas se utilizan para estructurar, organizar y presentar contenido en la web. 
+      A diferencia de los lenguajes de programación, no realizan cálculos ni lógica, sino que describen la información y su presentación.
+    </p>
+
+    <p>
+      En este portal encontrarás información y ejemplos de tres lenguajes de marcas fundamentales:
+    </p>
+
+    <!-- Miniaturas de lenguajes -->
+    <div>
+      <a href="html.html" class="language-box" title="Aprender HTML">
+        <img src="imagenes/html-logo.png" alt="Logo HTML">
+        <p>HTML</p>
+      </a>
+
+      <a href="svg.html" class="language-box" title="Aprender SVG">
+        <img src="imagenes/svg-logo.png" alt="Logo SVG">
+        <p>SVG</p>
+      </a>
+
+      <a href="css.html" class="language-box" title="Aprender CSS">
+        <img src="imagenes/css-logo.png" alt="Logo CSS">
+        <p>CSS</p>
+      </a>
+    </div>
+
+    <p>
+      Haz clic en cualquier logo para ir a la guía correspondiente y aprender más sobre cada lenguaje de marcas.
+    </p>
+
+  </article>
+</section>
+
+<footer>
+  <p>Web4U © 2025 · José Manuel Moreno Raya.</p>
+</footer>
+
+</body>
+</html>
