@@ -46,7 +46,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 ## Quarterly Work 1. Web4U
 
-| [Quarterly Work](./QUARTERLY WORK 1) | Web4U | 
+| [Quarterly Work](./QUARTERLY WORK 1/WEB4U/w4uindexes.html) | Web4U | 
 ## Tema 2 - CSS
 ## Tema 3 - JAVASCRIPT 
 ## Tema 4 - XML 
