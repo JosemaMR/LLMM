@@ -1,1 +1,486 @@
+<!DOCTYPE html>
 
+<html lang="es">
+
+<head>
+
+<title>Web4U</title>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<style>
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+
+}
+
+
+
+/* Style the header */
+
+header {
+
+  background-color: #1e1e1e;
+
+  padding: 30px;
+
+  text-align: center;
+
+  font-size: 35px;
+
+  color: #00d0ff;
+
+  letter-spacing: 2px;
+
+}
+
+
+
+/* Create two columns/boxes */
+
+nav {
+
+  float: left;
+
+  width: 25%;
+
+  background: #ccc;
+
+  padding: 20px;
+
+}
+
+
+
+nav ul {
+
+  list-style-type: none;
+
+  padding: 0;
+
+}
+
+
+
+nav a {
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+  color: #333;
+
+}
+
+
+
+nav a:hover {
+
+  color: #00a8cc;
+
+}
+
+
+
+article {
+
+  float: left;
+
+  padding: 20px;
+
+  width: 75%;
+
+  background-color: #f7f7f7;
+
+  min-height: 350px;
+
+}
+
+
+
+section::after {
+
+  content: "";
+
+  display: table;
+
+  clear: both;
+
+}
+
+
+
+/* Footer */
+
+footer {
+
+  background-color: #1e1e1e;
+
+  padding: 10px;
+
+  text-align: center;
+
+  color: white;
+
+  font-size: 14px;
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  nav, article {
+
+    width: 100%;
+
+    height: auto;
+
+  }
+
+}
+
+
+
+.toc-box {
+
+  background: #e2e2e2;
+
+  padding: 15px;
+
+  border-radius: 8px;
+
+  margin-bottom: 20px;
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<h2 style="text-align:center; padding-top:10px;">Web4U</h2>
+
+
+
+<header>
+
+  <h2>HTML</h2>
+
+</header>
+
+
+
+<section>
+
+  <nav>
+
+    <ul>
+
+      <li><a href="#">HTML</a></li>
+
+      <li><a href="#">SVG</a></li>
+
+      <li><a href="#">CSS</a></li> 
+
+    </ul>
+
+  </nav>
+
+  
+
+  <article>
+
+    <h1>Fundamental HTML Tags</h1>
+
+    <p>Below you will find explanations and examples of some essential tags in HTML</p>
+
+
+
+    <!-- TABLE OF CONTENTS -->
+
+    <div class="toc-box">
+
+      <h2>Table of contents</h2>
+
+      <ul>
+
+        <li><a href="#titulos">Headers</a></li>
+
+        <li><a href="#enlaces">Links</a></li>
+
+        <li><a href="#imagenes">Images</a></li>
+
+        <li><a href="#formularios">Forms</a></li>
+
+        <li><a href="#tablas">Tables</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <!-- ======================= -->
+
+    <!--     ETIQUETA <h1>       -->
+
+    <!-- ======================= -->
+
+
+
+    <h2 id="titulos">1. &lt;h1&gt; and &lt;h2&gt; Tags — Structure</h2>
+
+    <p>Header tags allow you to organize the hierarchical structure of a web page</p>
+
+
+
+<pre><code>
+&lt;h1&gt;Welcome to my page&lt;/h1&gt;
+&lt;h2&gt;About me&lt;/h2&gt;
+    </code></pre>
+
+
+
+    <p>
+
+    More information: 
+
+      <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank" title="Abrir documentación W3Schools">
+
+        W3Schools — HTML Headings
+
+      </a>
+
+    </p>
+
+
+
+    <!-- ======================= -->
+
+    <!--     ETIQUETA <a>        -->
+
+    <!-- ======================= -->
+
+
+
+    <h2 id="enlaces">2. Etiqueta &lt;a&gt; — Enlaces</h2>
+
+    <p>Crea un hipervínculo a otra web, documento o sección interna.</p>
+
+
+
+    <pre><code>
+
+&lt;a href="https://www.google.com" title="Ir a Google"&gt;
+
+  Ir a Google
+
+&lt;/a&gt;
+
+    </code></pre>
+
+
+
+    <p>
+
+      Más información:  
+
+      <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">
+
+        W3Schools — Etiqueta &lt;a&gt;
+
+      </a>
+
+    </p>
+
+
+
+    <!-- ======================= -->
+
+    <!--     ETIQUETA <img>      -->
+
+    <!-- ======================= -->
+
+
+
+    <h2 id="imagenes">3. Etiqueta &lt;img&gt; — Imágenes</h2>
+
+    <p>Inserta imágenes en la página. No tiene etiqueta de cierre.</p>
+
+
+
+    <pre><code>
+
+&lt;img src="imagenes/logo.png" alt="Logo de ejemplo" width="200"&gt;
+
+    </code></pre>
+
+
+
+    <p>
+
+      Más información:  
+
+      <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">
+
+        W3Schools — Etiqueta &lt;img&gt;
+
+      </a>
+
+    </p>
+
+
+
+    <!-- ======================= -->
+
+    <!--     ETIQUETA <form>     -->
+
+    <!-- ======================= -->
+
+
+
+    <h2 id="formularios">4. Etiqueta &lt;form&gt; — Formularios</h2>
+
+    <p>Permiten enviar datos al servidor.</p>
+
+
+
+    <pre><code>
+
+&lt;form action="procesar.php" method="post"&gt;
+
+  &lt;label&gt;Nombre:&lt;/label&gt;
+
+  &lt;input type="text" name="nombre"&gt;
+
+
+
+  &lt;label&gt;Email:&lt;/label&gt;
+
+  &lt;input type="email" name="email"&gt;
+
+
+
+  &lt;input type="submit" value="Enviar"&gt;
+
+&lt;/form&gt;
+
+    </code></pre>
+
+
+
+    <p>
+
+      Más información:  
+
+      <a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">
+
+        W3Schools — Formularios HTML
+
+      </a>
+
+    </p>
+
+
+
+    <!-- ======================= -->
+
+    <!--     ETIQUETA <table>    -->
+
+    <!-- ======================= -->
+
+
+
+    <h2 id="tablas">5. Etiqueta &lt;table&gt; — Tablas</h2>
+
+    <p>Organiza datos en filas y columnas.</p>
+
+
+
+    <pre><code>
+
+&lt;table border="1"&gt;
+
+  &lt;tr&gt;
+
+    &lt;th&gt;Producto&lt;/th&gt;
+
+    &lt;th&gt;Precio&lt;/th&gt;
+
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+
+    &lt;td&gt;Chocolate&lt;/td&gt;
+
+    &lt;td&gt;2€&lt;/td&gt;
+
+  &lt;/tr&gt;
+
+&lt;/table&gt;
+
+    </code></pre>
+
+
+
+    <p>
+
+      Más información:
+
+      <a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">
+
+        W3Schools — Tablas HTML
+
+      </a>
+
+    </p>
+
+
+
+  </article>
+
+</section>
+
+
+
+<footer>
+
+  <p>Web4U. José Manuel Moreno Raya.</p>
+
+ <p><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">
+
+       Inglés
+
+      </a>
+
+    </p>
+
+</footer>
+
+
+
+</body>
+
+</html>
