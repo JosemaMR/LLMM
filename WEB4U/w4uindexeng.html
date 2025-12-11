@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Web4U - Markup Languages</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #1e1e1e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: #00d0ff;
+  letter-spacing: 2px;
+}
+
+/* Create two columns/boxes */
+nav {
+  float: left;
+  width: 25%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a:hover {
+  color: #00a8cc;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: #f7f7f7;
+  min-height: 350px;
+  text-align: center;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Language thumbnails */
+.language-box {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.language-box:hover {
+  transform: scale(1.05);
+}
+
+.language-box img {
+  width: 80px;
+  height: 80px;
+}
+</style>
+</head>
+
+<body>
+
+<h2 style="text-align:center; padding-top:10px;">Welcome to Web4U</h2>
+
+<header>
+  <h2>Markup Languages</h2>
+</header>
+
+<section>
+
+  <article>
+    <h1>Introduction to Markup Languages</h1>
+    <p>
+      Markup languages are used to structure, organize, and present content on the web. 
+      Unlike programming languages, they do not perform calculations or logic; instead, they describe information and how it should be displayed.
+    </p>
+
+    <p>
+      On this site you will find information and examples of three essential markup languages:
+    </p>
+
+    <!-- Language thumbnails -->
+    <div>
+      <a href="w4uhtmles.html" class="language-box" title="Learn HTML">
+        <img src="IMAGES/LOGOHTML.png" alt="HTML Logo">
+        <p>HTML</p>
+      </a>
+
+      <a href="w4usvges.html" class="language-box" title="Learn SVG">
+        <img src="IMAGES/LOGOSVG.png" alt="SVG Logo">
+        <p>SVG</p>
+      </a>
+
+      <a href="w4uCSSes.html" class="language-box" title="Learn CSS">
+        <img src="IMAGES/LOGOCSS.png" alt="CSS Logo">
+        <p>CSS</p>
+      </a>
+    </div>
+
+    <p>
+      Click on any logo to open the corresponding guide and learn more about each markup language.
+    </p>
+
+  </article>
+</section>
+
+<footer>
+  <p>Web4U © 2025 · José Manuel Moreno Raya.</p>
+</footer>
+
+</body>
+</html>
 
