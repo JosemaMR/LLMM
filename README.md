@@ -44,6 +44,21 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 28](./TEMA1/ejercicio28html.html) | Video de Youtube |
 | [Ejercicio 30](./TEMA1/ejercicio26html.html) | Website |
 
+## Tema 2 - CSS 
+
+| Ejercicio | Descripción |
+|-----------|-------------|
+| [Ejercicio 1](./TEMA1/ejercicio1html.html) | Página con cabeceras y distintos tipos de texto |
+| [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página con seis cabeceras |
+| [Ejercicio 3](./TEMA1/ejercicio3html.html) | Currículum vitae |
+| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Página con código HTML |
+| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Página con párrafos, alineaciones y encabezados |
+| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Ahora con distintos formatos |
+| [Ejercicio 7](./TEMA1/ejercicio7html.html) | Ahora con fondo y color |
+| [Ejercicio 8](./TEMA1/ejercicio8html.html) | Página con enlace a ejercicios HTML CSS|
+| [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
+| [Ejercicio 10](./TEMA1/ejercicio10html.html) | Lista simple formateada |
+
 ## Quarterly Work 1. Web4U
 [Quarterly Work](./WEB4U/w4uindexes.html)
 ## Tema 2 - CSS
