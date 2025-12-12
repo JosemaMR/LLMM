@@ -1,0 +1,86 @@
+/* -------------------------------------------------------------------------- */
+/* ESTILOS GLOBALES - Requisito: Normal text: Arial, color black, size 16px.  */
+/* -------------------------------------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Fondo para que se note el contenedor */
+}
+
+.cv-container {
+    width: 800px; /* Ancho fijo para el CV */
+    margin: 20px auto;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* HEADING 1 (H1) - Requisito: Georgia, color blue, background light gray, bold, size 24px,       */
+/* letter spacing 1.6em, word spacing 2em, center                               */
+/* --------------------------------------------------------------------------------------------- */
+header {
+    background-color: lightgray; 
+    padding: 15px 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: blue;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1.6em; /* Espaciado entre letras */
+    word-spacing: 2em;     /* Espaciado entre palabras */
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* HEADING 2 (H2) - Requisito: Georgia, color dark red, size 18px, letter spacing 1.4em          */
+/* --------------------------------------------------------------------------------------------- */
+h2 {
+    font-family: Georgia, serif;
+    color: darkred;
+    font-size: 18px;
+    letter-spacing: 1.4em;
+    margin: 20px 0 10px 0;
+    padding-left: 15px; /* Pequeño margen izquierdo para que no toque el borde */
+    border-bottom: 1px solid #ccc; /* Línea separadora sutil si es necesario */
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* SECCIONES Y CONTENIDO DE LA LISTA                                          */
+/* -------------------------------------------------------------------------- */
+.section {
+    padding: 0 15px 20px 15px;
+}
+
+/* Estilo para los elementos de lista de Educación y Experiencia */
+.entry {
+    display: flex; /* Para poner el año y la descripción en la misma línea */
+    margin-bottom: 10px;
+}
+
+.years {
+    /* Requisito: Years: bold */
+    font-weight: bold;
+    width: 150px; /* Ancho fijo para la columna de años */
+    flex-shrink: 0;
+    padding-right: 15px;
+}
+
+.description {
+    flex-grow: 1;
+}
+
+/* Estilo para los Datos Personales para quitar el padding extra del "normal text" */
+.section p {
+    margin: 5px 0;
+    padding-left: 15px;
+}
