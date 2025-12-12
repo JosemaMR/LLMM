@@ -49,7 +49,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA2/EJERCICIO%201/ejercicio1css.html) | Texto formateado en currículum|
-| [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página Edgar Alan Poe|
+| [Ejercicio 2](./TEMA2/EJERCICIO%202/poe.html) | Página Edgar Alan Poe|
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Background |
 | [Ejercicio 4](./TEMA1/ejercicio4html.html) | Menú horizontal |
 | [Ejercicio 5](./TEMA1/ejercicio5html.html) | Tablas de estilo |
