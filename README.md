@@ -60,7 +60,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 10](./TEMA1/ejercicio10html.html) | Lista simple formateada |
 
 ## Quarterly Work 1. Web4U
-[Quarterly Work](./WEB4U/w4uindexes.html)
+[Quarterly Work](https://josemamr.github.io/LLMM/WEB4U/w4uindexes.html)
 ## Tema 2 - CSS
 ## Tema 3 - JAVASCRIPT 
 ## Tema 4 - XML 
