@@ -48,7 +48,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA1/ejercicio1html.html) | Página con cabeceras y distintos tipos de texto |
+| [Ejercicio 1](./TEMA2/EJERCICIO1/ejercicio1css.html) | Página con cabeceras y distintos tipos de texto |
 | [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página con seis cabeceras |
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Currículum vitae |
 | [Ejercicio 4](./TEMA1/ejercicio4html.html) | Página con código HTML |
