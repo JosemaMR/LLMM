@@ -48,16 +48,16 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA2/EJERCICIO%201/ejercicio1css.html) | Página con cabeceras y distintos tipos de texto |
-| [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página con seis cabeceras |
-| [Ejercicio 3](./TEMA1/ejercicio3html.html) | Currículum vitae |
-| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Página con código HTML |
-| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Página con párrafos, alineaciones y encabezados |
-| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Ahora con distintos formatos |
-| [Ejercicio 7](./TEMA1/ejercicio7html.html) | Ahora con fondo y color |
-| [Ejercicio 8](./TEMA1/ejercicio8html.html) | Página con enlace a ejercicios HTML CSS|
-| [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Página Runners Home |
-| [Ejercicio 10](./TEMA1/ejercicio10html.html) | Lista simple formateada |
+| [Ejercicio 1](./TEMA2/EJERCICIO%201/ejercicio1css.html) | Texto formateado en currículum|
+| [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página Edgar Alan Poe|
+| [Ejercicio 3](./TEMA1/ejercicio3html.html) | Background |
+| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Menú horizontal |
+| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Tablas de estilo |
+| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Tablas de estilo|
+| [Ejercicio 7](./TEMA1/ejercicio7html.html) | Propiedad flotante |
+| [Ejercicio 8](./TEMA1/ejercicio8html.html) |Posición absoluta|
+| [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Posición absoluta |
+| [Ejercicio 10](./TEMA1/ejercicio10html.html) | Flexbox |
 
 ## Quarterly Work 1. Web4U
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB4U/w4uindexes.html)
