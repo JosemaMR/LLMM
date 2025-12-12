@@ -1,1 +1,115 @@
+/*
+ * Documento CSS para aplicar estilos al CV de Classic Horror Authors
+ */
 
+/* ----------------------------------------------------------------------- */
+/* 2. Estilos de la página (Body)                                          */
+/* ----------------------------------------------------------------------- */
+body {
+    /* a. Background color set to 666666 */
+    background-color: #666666; 
+    
+    /* b. Use the font families Arial, Helvetica, Sans-Serif */
+    font-family: Arial, Helvetica, sans-serif; 
+    
+    /* c. Have a font size of 90% */
+    font-size: 90%; 
+    
+    /* Ajuste de margen general para que la página sea visible */
+    margin: 10px;
+}
+
+/* ----------------------------------------------------------------------- */
+/* 3. Estilos generales para todos los divs                                */
+/* ----------------------------------------------------------------------- */
+div {
+    /* a. Have a top margin of 6 pixels */
+    margin-top: 6px; 
+    
+    /* b. Padding of 6 pixels */
+    padding: 6px; 
+    
+    /* c. A 1 pixel solid black border */
+    border: 1px solid black; 
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* 4. Estilos del div header                                               */
+/* ----------------------------------------------------------------------- */
+#header {
+    /* a. Have a background color of 990000 */
+    background-color: #990000;
+    
+    /* b. Have a width of 779 pixels */
+    width: 779px; 
+    
+    /* El borde y el padding se añaden por el estilo general de 'div' */
+}
+
+/* ----------------------------------------------------------------------- */
+/* 5. Estilos del div navigation                                           */
+/* ----------------------------------------------------------------------- */
+#navigation {
+    /* a. Have a background color of CCCCCC */
+    background-color: #CCCCCC;
+    
+    /* b. Have a width of 779 pixels */
+    width: 779px; 
+    
+    /* Estilo adicional para mejorar la apariencia de los enlaces */
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------- */
+/* 7. Estilos del div content (columna izquierda)                          */
+/* ----------------------------------------------------------------------- */
+#content {
+    /* a. Have a background color of 999999 */
+    background-color: #999999;
+    
+    /* b. Have a width of 464 pixels */
+    width: 464px; 
+    
+    /* c. Have a bottom margin of 6 pixels */
+    margin-bottom: 6px; 
+    
+    /* d. Float to the left of the rightpanel div */
+    float: left;
+    
+    /* Nota: margin-top se hereda del estilo general de 'div' */
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* 8. Estilos del div rightpanel (columna derecha)                         */
+/* ----------------------------------------------------------------------- */
+#rightpanel {
+    /* a. Have a background color of 999999 */
+    background-color: #999999;
+    
+    /* b. Have a width of 295 pixels */
+    width: 295px; 
+    
+    /* c. Have a left margin of 484 pixels (464 ancho + 6 padding izq + 6 padding der + 6 margin top/bottom + 1 borde izq + 1 borde der = 484) */
+    /* El margen izquierdo de 484px empuja el panel a la derecha del contenido flotante. */
+    margin-left: 484px; 
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* 6. Estilos del div footer                                               */
+/* ----------------------------------------------------------------------- */
+#footer {
+    /* a. Have a background color of CCCCCC */
+    background-color: #CCCCCC;
+    
+    /* b. Have a width of 779 pixels */
+    width: 779px; 
+    
+    /* c. Have a text alignment set to center */
+    text-align: center; 
+    
+    /* d. Use a style of clear:left (Fuerza al footer a colocarse debajo de cualquier elemento que flote a su izquierda, en este caso, #content) */
+    clear: left; 
+}
