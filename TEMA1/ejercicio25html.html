@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Rellena tu CV</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 3px; }
+        input[type="text"], input[type="password"] { width: 200px; }
+        .radio-group label { display: inline-block; margin-right: 15px; }
+        .date-group input { width: 40px; text-align: center; }
+        .date-group select { margin: 0 5px; }
+        fieldset { margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; }
+        legend { font-weight: bold; padding: 0 10px; }
+    </style>
+</head>
+<body>
 
+    <h2>Rellena tu CV</h2>
+
+    <form action="/submit-cv" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="80" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" maxlength="10" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" name="dni" required pattern="[0-9]{8}[A-Z]">
+        </div>
+
+        <div class="form-group">
+            <p>Sexo</p>
+            <div class="radio-group">
+                <input type="radio" id="hombre" name="sexo" value="H" checked>
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" id="mujer" name="sexo" value="M">
+                <label for="mujer">Mujer</label>
+            </div>
+        </div>
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <div class="form-group">
+                <label for="provincia">Provincia</label>
+                <select id="provincia" name="provincia">
+                    <option value="" selected>- selecciona -</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Madrid">Madrid</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label>Fecha de nacimiento</label>
+                <div class="date-group">
+                    <input type="text" id="dia_nacimiento" name="dia_nacimiento" size="2" maxlength="2" placeholder="Día" pattern="\d{1,2}">
+                    
+                    <select id="mes_nacimiento" name="mes_nacimiento">
+                        <option value="1">de Enero</option>
+                        <option value="2">de Febrero</option>
+                        <option value="3">de Marzo</option>
+                        <option value="4">de Abril</option>
+                        <option value="5">de Mayo</option>
+                        <option value="6">de Junio</option>
+                        <option value="7">de Julio</option>
+                        <option value="8">de Agosto</option>
+                        <option value="9">de Septiembre</option>
+                        <option value="10">de Octubre</option>
+                        <option value="11">de Noviembre</option>
+                        <option value="12">de Diciembre</option>
+                    </select>
+
+                    <input type="text" id="anio_nacimiento" name="anio_nacimiento" size="4" maxlength="4" placeholder="Año">
+                </div>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Temas de interés</legend>
+            <div class="form-group">
+                <select id="temas" name="temas[]" multiple size="6">
+                    <option value="base_datos">Administración de bases de datos</option>
+                    <option value="analisis_progra">Análisis y programación</option>
+                    <option value="arquitectura">Arquitectura</option>
+                    <option value="calidad">Calidad</option>
+                    <option value="erp_crm_bi">ERP, CRM, Business Intelligence</option>
+                    <option value="testing">Testing</option>
+                    <option value="seguridad">Seguridad</option>
+                    </select>
+            </div>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="foto">Incluir mi foto</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+            <label for="newsletter">Suscribirme al boletín de novedades</label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Guardar cambios</button>
+            <button type="reset">Borrar los datos introducidos</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
