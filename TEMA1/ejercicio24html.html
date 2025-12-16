@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rellena tu CV</title>
+    <style>
+        body { font-family: sans-serif; }
+        .form-group { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 3px; }
+        input[type="text"], input[type="password"] { width: 200px; }
+        .radio-group label { display: inline-block; margin-right: 15px; }
+    </style>
+</head>
 <body>
 
-<h2>Rellena tu CV</h2>
+    <h2>Rellena tu CV</h2>
 
-<form action="/action_page.php">
-  <label for="fname">Nombre</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Apellidos</label><br>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="fname">Contraseña:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">DNI</label><br>
-  <input type="text" id="lname" name="lname"><br><br>
-  <p>Sexo</p>
-  <input type="radio" id="Hombre" name="sex" value="Hombre">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
-</form>
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    <form action="/submit-cv" method="post" enctype="multipart/form-data">
+        
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" maxlength="30" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="80" required>
+        </div>
+
+        <div class="form-group">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena" maxlength="10" required>
+        </div>
+
+        <div class="form-group">
+            <label for="dni">DNI</label>
+            <input type="text" id="dni" name="dni" required pattern="[0-9]{8}[A-Z]">
+        </div>
+
+        <div class="form-group">
+            <p>Sexo</p>
+            <div class="radio-group">
+                <input type="radio" id="hombre" name="sexo" value="H" checked>
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" id="mujer" name="sexo" value="M">
+                <label for="mujer">Mujer</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="foto">Incluir mi foto</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+            <label for="newsletter">Suscribirme al boletín de novedades</label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Guardar cambios</button>
+            <button type="reset">Borrar los datos introducidos</button>
+        </div>
+
+    </form>
 
 </body>
 </html>
