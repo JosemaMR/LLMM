@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid #000;
+  border-radius: 8px; 
+  overflow: hidden; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+th, td {
+  border: 1px solid #000; 
+  padding: 8px;
+}
+
+th {
+  background-color: #555555; 
+  color: white; 
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center; 
+}
+
+td {
+  text-align: left; 
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+.note-row td {
+  background-color: #555555; 
+  color: white;
+  font-style: italic;
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: left;
+  border: none; 
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th style="width: 40%;">Name</th>
+    <th style="width: 20%;">Red</th>
+    <th style="width: 20%;">Green</th>
+    <th style="width: 20%;">Blue</th>
+  </tr>
+  <tr>
+    <td>Light Sand</td>
+    <td class="center-text">254</td>
+    <td class="center-text">255</td>
+    <td class="center-text">239</td>
+  </tr>
+  <tr>
+    <td>Beige</td>
+    <td class="center-text">245</td>
+    <td class="center-text">245</td>
+    <td class="center-text">220</td>
+  </tr>
+  <tr>
+    <td>Chocolate</td>
+    <td class="center-text">210</td>
+    <td class="center-text">105</td>
+    <td class="center-text">30</td>
+  </tr>
+  <tr>
+    <td>Gray</td>
+    <td class="center-text">190</td>
+    <td class="center-text">190</td>
+    <td class="center-text">190</td>
+  </tr>
+  <tr class="note-row">
+    <td colspan="4">Use like this: color: rgb(RED, GREEN, BLUE);</td>
+  </tr>
+</table>
+
+</body>
+</html>
