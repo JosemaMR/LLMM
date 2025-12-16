@@ -52,7 +52,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 2](./TEMA2/EJERCICIO%202/poe.html) | Página Edgar Alan Poe|
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Background |
 | [Ejercicio 4](./TEMA1/ejercicio4html.html) | Menú horizontal |
-| [Ejercicio 5](./TEMA1/ejercicio5html.html) | Tablas de estilo |
+| [Ejercicio 5](./TEMA2/ejercicio5css.html) | Tablas de estilo |
 | [Ejercicio 6](./TEMA2/ejercicio6css.html) | Tablas de estilo|
 | [Ejercicio 7](./TEMA1/ejercicio7html.html) | Propiedad flotante |
 | [Ejercicio 8](./TEMA1/ejercicio8html.html) |Posición absoluta|
