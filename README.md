@@ -53,7 +53,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Background |
 | [Ejercicio 4](./TEMA1/ejercicio4html.html) | Menú horizontal |
 | [Ejercicio 5](./TEMA1/ejercicio5html.html) | Tablas de estilo |
-| [Ejercicio 6](./TEMA1/ejercicio6html.html) | Tablas de estilo|
+| [Ejercicio 6](./TEMA2/ejercicio6css.html) | Tablas de estilo|
 | [Ejercicio 7](./TEMA1/ejercicio7html.html) | Propiedad flotante |
 | [Ejercicio 8](./TEMA1/ejercicio8html.html) |Posición absoluta|
 | [Ejercicio 9](./TEMA1/EJERCICIO9/index.html) | Posición absoluta |
