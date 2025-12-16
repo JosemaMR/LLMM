@@ -50,8 +50,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 |-----------|-------------|
 | [Ejercicio 1](./TEMA2/EJERCICIO%201/ejercicio1css.html) | Texto formateado en currículum|
 | [Ejercicio 2](./TEMA2/EJERCICIO%202/poe.html) | Página Edgar Alan Poe|
-| [Ejercicio 3](./TEMA1/ejercicio3html.html) | Background |
-| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Menú horizontal |
+| [Ejercicio 3](./TEMA2/EJERCICIO%203ejercicio3css.html) | Background |
+| [Ejercicio 4](./TEMA1/ejercicio4css.html) | Menú horizontal |
 | [Ejercicio 5](./TEMA2/ejercicio5css.html) | Tablas de estilo |
 | [Ejercicio 6](./TEMA2/ejercicio6css.html) | Tablas de estilo|
 | [Ejercicio 7](./TEMA1/ejercicio7html.html) | Propiedad flotante |
