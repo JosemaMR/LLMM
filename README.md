@@ -61,6 +61,18 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 ## Quarterly Work 1. Web4U
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB4U/w4uindexes.html)
-## Tema 2 - CSS
+
 ## Tema 3 - JAVASCRIPT 
+
+| [Ejercicio 1](./TEMA3/EJERCICIO%201/ejercicio1js.html) | Video |
+| [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | Audio |
+
+
+
+
+
+
+
+
+
 ## Tema 4 - XML 
