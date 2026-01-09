@@ -66,8 +66,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA3/EJERCICIO%201/ejercicio1js.html) | Video |
-| [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | Audio |
+| [Ejercicio 1](./TEMA3/EJERCICIO%201/ejercicio1js.html) | Básico |
+| [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | Mostrar mensaje |
 
 
 
