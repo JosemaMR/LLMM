@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h3>1.Cambiar fuente</h3>
+  <p id="myText">Cambio de estilo</p>
+  <button onclick="document.getElementById('myText').style.fontFamily = 'serif'">Serif</button>
+  <button onclick="document.getElementById('myText').style.fontFamily = 'sans-serif'">Sans-Serif</button>
+  <button onclick="document.getElementById('myText').style.fontFamily = 'monospace'">Monospace</button>
+
+  <hr>
+
+  <h3>2.Cambiar imagen</h3>
+  <img id="myImg" src="https://via.placeholder.com/150/blue" width="150"><br>
+  <button onclick="document.getElementById('myImg').src = 'https://via.placeholder.com/150/red'">Red</button>
+  <button onclick="document.getElementById('myImg').src = 'https://via.placeholder.com/150/green'">Green</button>
+  <button onclick="document.getElementById('myImg').src = 'https://via.placeholder.com/150/blue'">Blue</button>
+
+  <hr>
+
+  <h3>3.Mostrar mensajes</h3>
+  <div id="myDiv" style="border: 1px solid black; padding: 10px; margin-top: 10px;">
+    Click al botón
+  </div>
+  <button onclick="document.getElementById('myDiv').innerHTML = 'Prueba 1'">Message 1</button>
+  <button onclick="document.getElementById('myDiv').innerHTML = 'Prueba 2'">Message 2</button>
+  <button onclick="document.getElementById('myDiv').innerHTML = 'Prueba 3'">Message 3</button>
+
+</body>
+</html>
