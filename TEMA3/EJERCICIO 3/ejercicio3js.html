@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio 3</title>
+    <link id="estilo1" rel="stylesheet" href="estilo1.css">
+    <link id="estilo2" rel="stylesheet" href="estilo2.css" disabled>
+    <script src="js03.js" defer></script>
+</head>
+<body>
+
+<h2>Imágenes de coches</h2>
+<p>Selecciona un coche del desplegable:</p>
+
+<select id="selectCoche" onchange="cambiaCoche(this.value)">
+    <option value="coche1.jpg">Coche 1</option>
+    <option value="coche2.jpg">Coche 2</option>
+    <option value="coche3.jpg">Coche 3</option>
+</select>
+
+<br><br>
+<img id="imagenCoche" src="coche1.jpg" style="height:300px">
+
+<hr>
+
+<h2>Imágenes de Spiderman</h2>
+<p>Selecciona una imagen de Spiderman:</p>
+
+<select id="selectSpiderman" onchange="cambiaSpiderman(this.value)">
+    <option value="spiderman1.jpg">Spiderman 1</option>
+    <option value="spiderman2.jpg">Spiderman 2</option>
+    <option value="spiderman3.jpg">Spiderman 3</option>
+</select>
+
+<br><br>
+<img id="imagenSpiderman" src="spiderman1.jpg" style="height:300px">
+
+<hr>
+
+<h2>Cambiar estilos</h2>
+<button onclick="activarEstilo('estilo1')">Estilo 1</button>
+<button onclick="activarEstilo('estilo2')">Estilo 2</button>
+
+</body>
+</html>
 
