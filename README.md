@@ -67,7 +67,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA3/EJERCICIO%201/ejercicio1js.html) | Básico |
-
+| [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | Mostrar mensajes |
+| [Ejercicio 3](./TEMA3/EJERCICIO%203/ejercicio3js.html) | Coches y Spiderman |
 
 ## Tema 4 - XML 
 
