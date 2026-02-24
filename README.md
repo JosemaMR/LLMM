@@ -62,7 +62,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 ## Quarterly Work 1. Web4U
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB4U/w4uindexes.html)
 
-## Tema 3 - JAVASCRIPT 
+## Tema 3 - JavaScript y HTML DOM
 
 | Ejercicio | Descripción |
 |-----------|-------------|
@@ -70,7 +70,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | Mostrar mensajes |
 | [Ejercicio 3](./TEMA3/EJERCICIO%203/ejercicio3js.html) | Coches y Spiderman |
 
-## Tema 4 - XML 
+## Tema 4 - XML, XML DOM, AJAX y Json
+
 
 ## Quarterly Work 2. Volbeat Fan Web
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
