@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Working with Variables</title>
+</head>
+<body>
 
+<h2>Working with Variables</h2>
+
+<p>Enter your name:</p>
+<input type="text" id="nameInput">
+
+<p>Enter your age:</p>
+<input type="number" id="ageInput">
+
+<p>Enter your favorite number:</p>
+<input type="number" id="favNumberInput">
+
+<br><br>
+<button onclick="showData()">Show Data</button>
+
+<h3>Results:</h3>
+<p id="result"></p>
+
+<script>
+function showData() {
+  
+    var name = document.getElementById("nameInput").value;
+    var age = document.getElementById("ageInput").value;
+    var favoriteNumber = document.getElementById("favNumberInput").value;
+
+    
+    document.getElementById("result").innerHTML = 
+        "Name: " + name + "<br>" +
+        "Age: " + age + "<br>" +
+        "Favorite Number: " + favoriteNumber;
+}
+</script>
+
+</body>
+</html>
