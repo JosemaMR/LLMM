@@ -74,7 +74,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 3](./TEMA3/EJERCICIO%203/ejercicio3js.html) | Coches y Spiderman |
 | [Ejercicio 4](./TEMA3/EJERCICIO%204/ejercicio4js.html) | Trabajo con variables |
 | [Ejercicio 5](./TEMA3/EJERCICIO%205/ejercicio5js.html) | Básicos |
-| [Ejercicio 6](./TEMA3/EJERCICIO%206/ejercicio6js.html) | Citas random |
+| [Ejercicio 6](./TEMA3/EJERCICIO6/ejercicio6js.html) | Citas random |
 
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
