@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+
+.divTable {
+  display: table;
+  width: 100%;
+  border: 1px solid black;
+}
+.divRow {
+  display: table-row;
+}
+.divCell, .divHeader {
+  display: table-cell;
+  border: 1px solid black;
+  padding: 5px;
+}
+.divHeader {
+  font-weight: bold;
+  background-color: #ddd;
+}
+</style>
+</head>
+
+<body>
+
+<h2>CD Collection (TABLE)</h2>
+<button type="button" onclick="loadDoc()">Load CDs</button>
+<br><br>
+<table id="tableDemo"></table>
+
+<h2>CD Collection (DIV)</h2>
+<div id="divDemo" class="divTable"></div>
+
+<script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    myFunction(this);
+  }
+  xhttp.open("GET", "cd_catalog.xml");
+  xhttp.send();
+}
+
+function myFunction(xml) {
+  const xmlDoc = xml.responseXML;
+  const x = xmlDoc.getElementsByTagName("CD");
+
+  let table = "<tr><th>Artist</th><th>Title</th><th>Country</th><th>Company</th><th>Price</th><th>Year</th></tr>";
+
+  let divTable = "<div class='divRow'>" +
+                 "<div class='divHeader'>Artist</div>" +
+                 "<div class='divHeader'>Title</div>" +
+                 "<div class='divHeader'>Country</div>" +
+                 "<div class='divHeader'>Company</div>" +
+                 "<div class='divHeader'>Price</div>" +
+                 "<div class='divHeader'>Year</div>" +
+                 "</div>";
+
+  for (let i = 0; i < x.length; i++) {
+
+    let artist = x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue;
+    let title = x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
+    let country = x[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue;
+    let company = x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue;
+    let price = x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue;
+    let year = x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
+
+    table += "<tr><td>" + artist + "</td><td>" + title + "</td><td>" +
+             country + "</td><td>" + company + "</td><td>" +
+             price + "</td><td>" + year + "</td></tr>";
+
+    divTable += "<div class='divRow'>" +
+                "<div class='divCell'>" + artist + "</div>" +
+                "<div class='divCell'>" + title + "</div>" +
+                "<div class='divCell'>" + country + "</div>" +
+                "<div class='divCell'>" + company + "</div>" +
+                "<div class='divCell'>" + price + "</div>" +
+                "<div class='divCell'>" + year + "</div>" +
+                "</div>";
+  }
+
+  document.getElementById("tableDemo").innerHTML = table;
+  document.getElementById("divDemo").innerHTML = divTable;
+}
+</script>
+
+</body>
+</html>
