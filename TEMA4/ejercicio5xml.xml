@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDList>
+    <CD serial="B6B41B" disc-length="36:55">
+        
+        <title>Power Up</title>
+        <artist>ACDC</artist>
+        <year>2021</year>
+        <category>Rock</category>
+        
+        <tracks>
+            <track>
+                <number>1</number>
+                <name>Realice</name>
+                <duration>3:37</duration>
+            </track>
+            <track>
+                <number>2</number>
+                <name>Rejection</name>
+                <duration>4:06</duration>
+            </track>
+            <track>
+                <number>3</number>
+                <name>Shot in the dark</name>
+                <duration>3:05</duration>
+            </track>
+        </tracks>
+        
+    </CD>
+</CDList>
