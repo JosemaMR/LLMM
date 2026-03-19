@@ -1,0 +1,41 @@
+<!-- Título del primer libro -->
+document.getElementsByTagName("book")[0].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+<!-- Todos los títulos -->
+var titulos = document.getElementsByTagName("title");
+for (var i = 0; i < titulos.length; i++) {
+    console.log(titulos[i].childNodes[0].nodeValue);
+}
+
+<!-- Número de atributos del cuarto libro -->
+document.getElementsByTagName("book")[3].attributes.length;
+
+<!-- Valor de los atributos del cuarto libro -->
+var attrs = document.getElementsByTagName("book")[3].attributes;
+for (var i = 0; i < attrs.length; i++) {
+    console.log(attrs[i].nodeValue);
+}
+
+<!-- Número de autores del tercer libro -->
+document.getElementsByTagName("book")[2].getElementsByTagName("author").length;
+
+<!-- Autores del tercer libro -->
+var autores = document.getElementsByTagName("book")[2]
+                      .getElementsByTagName("author");
+
+for (var i = 0; i < autores.length; i++) {
+    console.log(autores[i].childNodes[0].nodeValue);
+}
+
+<!-- Muestra una tabla que muestre el título, primer autor, precio y año -->
+  var books = document.getElementsByTagName("book");
+
+for (var i = 0; i < books.length; i++) {
+    var titulo = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+    var autor = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+    var precio = books[i].getElementsByTagName("price")[0].childNodes[0].nodeValue;
+    var año = books[i].getElementsByTagName("year")[0].childNodes[0].nodeValue;
+}
+  
+
+  
