@@ -87,6 +87,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 5](./TEMA4/ejercicio5xml.xml) | Información sobre CDs |
 | [Ejercicio 6](./TEMA4/ejercicio6xml.xml) | Carta |
 | [Ejercicio 8](./TEMA4/ejercicio8xml.xml) | Ejercicios adicionales |
+| [Ejercicio DOM 1](./TEMA4/ejercicio9xml.xml) | Datos de libros |
+| [Ejercicio DOM 2](./TEMA4/ejercicio10xml.xml) | Datos de CDs |
 
 ## Quarterly Work 2. Volbeat Fan Web
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
