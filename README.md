@@ -81,11 +81,10 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA4/ejercicio2xml.xml) |  |
-| [Ejercicio 2](./TEMA3/EJERCICIO%202/ejercicio2js.html) | |
-| [Ejercicio 3](./TEMA3/EJERCICIO%203/ejercicio3js.html) |  |
-
-
+| [Ejercicio 1](./TEMA4/ejercicio1xml.xml) | Preguntas|
+| [Ejercicio 2](./TEMA4/ejercicio2xml.xml) | Estructura de árbol|
+| [Ejercicio 3](./TEMA4/ejercicio3xml.xml) | Estructura |
+| [Ejercicio 4](./TEMA4/ejercicio4xml.xml) | Email |
 
 
 ## Quarterly Work 2. Volbeat Fan Web
