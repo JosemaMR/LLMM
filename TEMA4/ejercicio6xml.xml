@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letter>
+    
+    <sender>
+        <name>Josema</name>
+        <address>Huelva, España</address>
+        <email>josema@email.com</email>
+    </sender>
+    
+    <receiver>
+        <name>Juan Carlos</name>
+        <address>Huelva, España</address>
+        <email>juancar@email.com</email>
+    </receiver>
+    
+    <date>2026-03-19</date>
+    
+    <body>
+        Hola Juan Carlos,
+        Te escribo para comentarte los deberes de Sistemas Informáticos
+        A ver si los hacemos ya, que si no Juanmi nos va a comer
+        Hasta mañana
+    </body>
+    
+    <signature>
+        Josema
+    </signature>
+    
+</letter>
