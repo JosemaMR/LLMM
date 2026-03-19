@@ -16,10 +16,10 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA1/ejercicio1html.html) | Página con cabeceras y distintos tipos de texto |
+| [Ejercicio 1](./TEMA1/ejercicio1html.html) | Cabeceras y tipos de texto |
 | [Ejercicio 2](./TEMA1/ejercicio2html.html) | Página con seis cabeceras |
 | [Ejercicio 3](./TEMA1/ejercicio3html.html) | Currículum vitae |
-| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Página con código HTML |
+| [Ejercicio 4](./TEMA1/ejercicio4html.html) | Código HTML |
 | [Ejercicio 5](./TEMA1/ejercicio5html.html) | Página con párrafos, alineaciones y encabezados |
 | [Ejercicio 6](./TEMA1/ejercicio6html.html) | Ahora con distintos formatos |
 | [Ejercicio 7](./TEMA1/ejercicio7html.html) | Ahora con fondo y color |
@@ -78,7 +78,6 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
-
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA4/ejercicio1xml.xml) | Preguntas|
@@ -86,7 +85,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 3](./TEMA4/ejercicio3xml.xml) | Estructura |
 | [Ejercicio 4](./TEMA4/ejercicio4xml.xml) | Email |
 | [Ejercicio 5](./TEMA4/ejercicio5xml.xml) | Información sobre CDs |
-
+| [Ejercicio 4](./TEMA4/ejercicio4xml.xml) | Carta |
 
 ## Quarterly Work 2. Volbeat Fan Web
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
