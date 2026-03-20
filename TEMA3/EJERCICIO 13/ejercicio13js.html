@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear imagen</title>
+    <script>
+        function agregarImagen() {
+         var img = document.createElement("img");
+            img.src = "imagen.jpg";
+            img.width = 150;
+            document.getElementById("contenedor").appendChild(img);
+        }
+    </script>
+</head>
+<body>
+    <h2>Crear imagen con JS</h2>
+    <button onclick="agregarImagen()">Agregar imagen</button>
+    <div id="contenedor"></div>
+</body>
+</html>
