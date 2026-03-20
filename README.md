@@ -90,7 +90,8 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio DOM 9 ](./TEMA3/ejercicio19js.html) | setTimeout y clearTimeout |
 | [Ejercicio DOM 9 ](./TEMA3/EJERCICIO%2020/index.html) | Lights Out Game |
 | [Ejercicio 21 ](./TEMA3/ejercicio21js.html) | Editor HTML&CSS |
- 
+| [Ejercicio 24 ](./TEMA3/ejercicio24js.html) | HTML DOM |
+
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
 | Ejercicio | Descripción |
