@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p id="demo"></p>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+
+  let txt = "";
+
+  // 1. Muestra edad
+  txt += "Edad: " + myObj.age + "<br><br>";
+
+  // 2. Primer elemento pets → tipo de animal
+  txt += "Primer animal: " + myObj.pets[0].animal + "<br><br>";
+
+  // 3. Primer elemento pets → nombre
+  txt += "Nombre del primer animal: " + myObj.pets[0].name + "<br><br>";
+
+  // 4. Número de mascotas
+  txt += "Número de mascotas: " + myObj.pets.length + "<br><br>";
+
+  // 5. Nombre de todas las mascotas
+  txt += "Nombres de mascotas:<br>";
+  for (let i = 0; i < myObj.pets.length; i++) {
+    txt += myObj.pets[i].name + "<br>";
+  }
+
+  txt += "<br>";
+
+  // 6. Mostrar todos los datos en un párrafo
+  txt += "Todos los datos:<br>";
+  txt += "Nombre: " + myObj.name + "<br>";
+  txt += "Edad: " + myObj.age + "<br>";
+  txt += "Mascotas:<br>";
+  for (let i = 0; i < myObj.pets.length; i++) {
+    txt += myObj.pets[i].animal + " - " + myObj.pets[i].name + "<br>";
+  }
+
+  txt += "<br>";
+
+  // 7. Mostrar los datos en una tabla
+  txt += "<table border='1'>";
+  txt += "<tr><th>Animal</th><th>Nombre</th></tr>";
+
+  for (let i = 0; i < myObj.pets.length; i++) {
+    txt += "<tr>";
+    txt += "<td>" + myObj.pets[i].animal + "</td>";
+    txt += "<td>" + myObj.pets[i].name + "</td>";
+    txt += "</tr>";
+  }
+
+  txt += "</table>";
+
+  document.getElementById("demo").innerHTML = txt;
+}
+
+xmlhttp.open("GET", "json_demo.txt");
+xmlhttp.send();
+</script>
+
+</body>
+</html>
