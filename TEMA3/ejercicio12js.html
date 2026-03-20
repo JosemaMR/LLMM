@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ejercicio Formulario</title>
+    <script>
+        function mostrarMensaje() {
+            var nombre = document.forms["miFormulario"]["nombre"].value;
+            var apellidos = document.forms["miFormulario"]["apellidos"].value;
+            document.getElementById("resultado").innerHTML =
+                "Hola " + nombre + " " + apellidos + ", gracias por completar el formulario.";
+        }
+    </script>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form name="miFormulario" onsubmit="event.preventDefault(); mostrarMensaje();">
+        Nombre: <input type="text" name="nombre"><br><br>
+        Apellidos: <input type="text" name="apellidos"><br><br>
+        <input type="submit" value="Enviar datos">
+    </form>
+    <p id="resultado"></p>
+</body>
+</html>
