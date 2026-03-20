@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 10 - Funciones en JavaScript</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 20px; }
+  .section { margin-bottom: 30px; }
+  input, button { margin: 5px 0; }
+  p.result { font-weight: bold; color: blue; }
+</style>
+</head>
+<body>
+<h1>Ejercicio 10 - Funciones en JavaScript</h1>
+
+<div class="section">
+  <h2>1. Máximo de dos números</h2>
+  <input type="number" id="num1" placeholder="Primer número">
+  <input type="number" id="num2" placeholder="Segundo número">
+  <button onclick="mostrarMax()">Obtener máximo</button>
+  <p id="maxResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>2. Máximo de tres números</h2>
+  <input type="number" id="num3" placeholder="Primer número">
+  <input type="number" id="num4" placeholder="Segundo número">
+  <input type="number" id="num5" placeholder="Tercer número">
+  <button onclick="mostrarMaxTres()">Obtener máximo de tres</button>
+  <p id="maxThreeResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>3. Comprobar vocal</h2>
+  <input type="text" id="char" maxlength="1" placeholder="Ingresa un carácter">
+  <button onclick="verificarVocal()">¿Es vocal?</button>
+  <p id="vowelResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>4. Traductor Rövarspråket</h2>
+  <input type="text" id="textToTranslate" placeholder="Ingresa texto">
+  <button onclick="traducirTexto()">Traducir</button>
+  <p id="translateResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>5. Sumar y multiplicar arreglo</h2>
+  <input type="text" id="arrayInput" placeholder="Ingresa números separados por comas">
+  <button onclick="mostrarSumaMultiplicacion()">Calcular</button>
+  <p id="sumResult" class="result"></p>
+  <p id="multiplyResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>6. Invertir cadena</h2>
+  <input type="text" id="stringToReverse" placeholder="Ingresa texto">
+  <button onclick="mostrarInvertido()">Invertir</button>
+  <p id="reverseResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>7. Ordenar palabras alfabéticamente</h2>
+  <input type="text" id="wordsInput" placeholder="Ingresa palabras separadas por comas">
+  <button onclick="mostrarPalabrasOrdenadas()">Ordenar</button>
+  <p id="sortedResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>8. Longitud de la palabra más larga</h2>
+  <input type="text" id="longWordsInput" placeholder="Ingresa palabras separadas por comas">
+  <button onclick="mostrarPalabraMasLarga()">Palabra más larga</button>
+  <p id="longestResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>9. Filtrar palabras largas</h2>
+  <input type="text" id="filterWordsInput" placeholder="Ingresa palabras separadas por comas">
+  <input type="number" id="minLength" placeholder="Longitud mínima">
+  <button onclick="mostrarPalabrasFiltradas()">Filtrar</button>
+  <p id="filteredResult" class="result"></p>
+</div>
+
+<div class="section">
+  <h2>10. Frecuencia de caracteres</h2>
+  <input type="text" id="freqInput" placeholder="Ingresa texto">
+  <button onclick="mostrarFrecuencia()">Calcular frecuencia</button>
+  <p id="freqResult" class="result"></p>
+</div>
+
+<script>
+  // 1. Máximo de dos números
+  function max(a, b) {
+    if (a > b) return a;
+    else return b;
+  }
+  function mostrarMax() {
+    const a = parseFloat(document.getElementById("num1").value);
+    const b = parseFloat(document.getElementById("num2").value);
+    document.getElementById("maxResult").innerHTML = max(a, b);
+  }
+
+  // 2. Máximo de tres números
+  function maxDeTres(a, b, c) {
+    return max(max(a, b), c);
+  }
+  function mostrarMaxTres() {
+    const a = parseFloat(document.getElementById("num3").value);
+    const b = parseFloat(document.getElementById("num4").value);
+    const c = parseFloat(document.getElementById("num5").value);
+    document.getElementById("maxThreeResult").innerHTML = maxDeTres(a, b, c);
+  }
+
+  // 3. Comprobar vocal
+  function esVocal(char) {
+    return "aeiouAEIOU".includes(char);
+  }
+  function verificarVocal() {
+    const char = document.getElementById("char").value;
+    document.getElementById("vowelResult").innerHTML = esVocal(char);
+  }
+
+  // 4. Rövarspråket
+  function traducir(texto) {
+    let resultado = "";
+    for (let char of texto) {
+      if (/[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]/.test(char)) {
+        resultado += char + "o" + char.toLowerCase();
+      } else {
+        resultado += char;
+      }
+    }
+    return resultado;
+  }
+  function traducirTexto() {
+    const texto = document.getElementById("textToTranslate").value;
+    document.getElementById("translateResult").innerHTML = traducir(texto);
+  }
+
+  // 5. Sumar y multiplicar arreglo
+  function sumar(arr) {
+    return arr.reduce((a, b) => a + b, 0);
+  }
+  function multiplicar(arr) {
+    return arr.reduce((a, b) => a * b, 1);
+  }
+  function mostrarSumaMultiplicacion() {
+    const arr = document.getElementById("arrayInput").value.split(",").map(Number);
+    document.getElementById("sumResult").innerHTML = "Suma: " + sumar(arr);
+    document.getElementById("multiplyResult").innerHTML = "Multiplicación: " + multiplicar(arr);
+  }
+
+  // 6. Invertir cadena
+  function invertir(str) {
+    return str.split("").reverse().join("");
+  }
+  function mostrarInvertido() {
+    const str = document.getElementById("stringToReverse").value;
+    document.getElementById("reverseResult").innerHTML = invertir(str);
+  }
+
+  // 7. Ordenar palabras
+  function ordenarPalabras(arr) {
+    return arr.sort();
+  }
+  function mostrarPalabrasOrdenadas() {
+    const arr = document.getElementById("wordsInput").value.split(",");
+    document.getElementById("sortedResult").innerHTML = ordenarPalabras(arr).join(", ");
+  }
+
+  // 8. Palabra más larga
+  function palabraMasLarga(arr) {
+    return Math.max(...arr.map(w => w.length));
+  }
+  function mostrarPalabraMasLarga() {
+    const arr = document.getElementById("longWordsInput").value.split(",");
+    document.getElementById("longestResult").innerHTML = palabraMasLarga(arr);
+  }
+
+  // 9. Filtrar palabras largas
+  function filtrarPalabras(arr, i) {
+    return arr.filter(word => word.length > i);
+  }
+  function mostrarPalabrasFiltradas() {
+    const arr = document.getElementById("filterWordsInput").value.split(",");
+    const min = parseInt(document.getElementById("minLength").value);
+    document.getElementById("filteredResult").innerHTML = filtrarPalabras(arr, min).join(", ");
+  }
+
+  // 10. Frecuencia de caracteres
+  function frecuenciaCaracteres(str) {
+    const freq = {};
+    for (let char of str) {
+      freq[char] = (freq[char] || 0) + 1;
+    }
+    return freq;
+  }
+  function mostrarFrecuencia() {
+    const str = document.getElementById("freqInput").value;
+    document.getElementById("freqResult").innerHTML = JSON.stringify(frecuenciaCaracteres(str), null, 2);
+  }
+</script>
+</body>
+</html>
