@@ -93,6 +93,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio AJAX 1](./TEMA4/ejercicio12xml.xml) | Catálogo CDs |
 | [Ejercicio AJAX 2](./TEMA4/EJERCICIO13/index.html) | Programa meteorológico |
 | [Ejercicio AJAX 3](./TEMA4/EJERCICIO14/index.html) | Títulos y artistas de CDs |
+| --- ](./TEMA4/EJERCICIO15/index.html) | JSON array |
 
 ## Quarterly Work 2. Volbeat Fan Web
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
