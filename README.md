@@ -88,7 +88,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio DOM 7 ](./TEMA3/EJERCICIO%2017/ejercicio17js.html) | onClick |
 | [Ejercicio DOM 8 ](./TEMA3/ejercicio18js.html) | setTimeout |
 | [Ejercicio DOM 9 ](./TEMA3/ejercicio19js.html) | setTimeout y clearTimeout |
-| [Ejercicio DOM 9 ](./TEMA3/ejercicio19js.html) | setTimeout y clearTimeout |
+| [Ejercicio DOM 9 ](./TEMA3/EJERCICIO%2020/index.html) | Lights Out Game |
 | [Ejercicio 21 ](./TEMA3/ejercicio21js.html) | Editor HTML&CSS |
  
 ## Tema 4 - XML, XML DOM, AJAX y Json
