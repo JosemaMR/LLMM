@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eliminar elementos</title>
+    <script>
+        function eliminarElemento() {
+            var lista = document.getElementById("laLista");
+            if (lista.children.length > 0) {
+                lista.removeChild(lista.lastElementChild);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Lista</h2>
+    <ul id="laLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <button onclick="eliminarElemento()">Eliminar elemento</button>
+</body>
+</html>
