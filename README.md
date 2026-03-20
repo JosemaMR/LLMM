@@ -81,7 +81,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 10](./TEMA3/ejercicio10js.html) | Funciones |
 | [Ejercicio DOM 1 ](./TEMA3/ejercicio11js.html) | Básicos |
 | [Ejercicio DOM 2 ](./TEMA3/ejercicio12js.html) | Formulario |
-| [Ejercicio DOM 3 ](./TEMA3/ejercicio13js.html) | Crear elementos |
+| [Ejercicio DOM 3 ](./TEMA3/EJERCICIO%2013/ejercicio13js.html) | Crear elementos |
 | [Ejercicio DOM 4 ](./TEMA3/ejercicio14js.html) | Borrando elementos |
 | [Ejercicio DOM 5 ](./TEMA3/ejercicio15js.html) | Propiedades de documentos HTML |
 | [Ejercicio DOM 6 ](./TEMA3/ejercicio16js.html) | onLoad |
