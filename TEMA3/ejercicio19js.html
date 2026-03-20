@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>setTimeout y clearTimeout</title>
+    <script>
+        var temporizador;
+        function iniciarTemporizador() {
+            temporizador = setTimeout(function() {
+                alert("¡Han pasado 5 segundos!");
+            }, 5000);
+        }
+        function detenerTemporizador() {
+            // Detiene el setTimeout
+            clearTimeout(temporizador);
+            alert("Temporizador detenido");
+        }
+    </script>
+</head>
+<body>
+    <h2>setTimeout con opción de detener</h2>
+    <button onclick="iniciarTemporizador()">Iniciar temporizador</button>
+    <button onclick="detenerTemporizador()">Detener temporizador</button>
+</body>
+</html>
