@@ -77,6 +77,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 6](./TEMA3/EJERCICIO%206/Ejercicio6js.html) | Citas random |
 | [Ejercicio 7](./TEMA3/EJERCICIO%207/index.html) | Carrusel de imágenes |
 | [Ejercicio 8](./TEMA3/ejercicio8js.html) | Calculadora |
+| [Ejercicio 9](./TEMA3/ejercicio9js.html) | Celsius a Fahrenheit |
 
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
