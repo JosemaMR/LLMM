@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTML & CSS Editor</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    textarea {
+        width: 45%;
+        height: 300px;
+        float: left;
+        resize: none; 
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #result {
+        width: 45%;
+        height: 300px;
+        float: left;
+        margin-left: 10px;
+        padding: 10px;
+        border: 1px solid #000;
+        background-color: #ffffe0;
+        overflow: auto;
+    }
+    button {
+        display: block;
+        clear: both;
+        margin: 10px 0;
+    }
+</style>
+</head>
+<body>
+<h2>Test your HTML code</h2>
+<textarea id="code">
+<h1>Hello</h1>
+<p>This is a paragraph</p>
+<p>This is the second paragraph</p>
+<p>This is the third paragraph</p>
+<img alt="Sorry!" style="height:150px; width:200px;" src="dice.png"/>
+</textarea>
+<div id="result"></div>
+<button onclick="runCode()">Try it</button>
+<script>
+function runCode() {
+    var code = document.getElementById("code").value;
+    document.getElementById("result").innerHTML = code;
+}
+</script>
+
+</body>
+</html>
