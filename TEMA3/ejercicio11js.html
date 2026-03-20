@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio DOM Básico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #output {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio DOM: Mostrar párrafos</h1>
+
+    <p>Este es el primer párrafo.</p>
+    <p>Este es el segundo párrafo con más información.</p>
+    <p>Y este es el tercer párrafo para el ejemplo.</p>
+
+    <div id="output">Aquí se mostrará el contenido de los párrafos.</div>
+
+    <script>
+        const paragraphs = document.querySelectorAll('p');
+
+        const outputDiv = document.getElementById('output');
+
+        let content = '';
+
+        paragraphs.forEach((p, index) => {
+            content += `Párrafo ${index + 1}: ${p.textContent}<br>`;
+        });
+
+        outputDiv.innerHTML = content;
+    </script>
+</body>
+</html>
