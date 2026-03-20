@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 60px);
+            gap: 5px;
+            background-color: #333;
+            padding: 10px;
+            width: fit-content;
+        }
+        .cell {
+            width: 60px;
+            height: 60px;
+            background-color: #444;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+        .cell.on {
+            background-color: #ffeb3b; 
+            box-shadow: 0 0 15px #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+    <h2>Lights Out Game</h2>
+    <div id="board" class="grid"></div>
+    <button onclick="setupGame()">Reiniciar / Mezclar</button>
