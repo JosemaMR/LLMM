@@ -81,6 +81,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 10](./TEMA3/ejercicio10js.html) | Funciones |
 | [Ejercicio DOM 1 ](./TEMA3/ejercicio11js.html) | Básicos |
 | [Ejercicio DOM 2 ](./TEMA3/ejercicio12js.html) | Formulario |
+| [Ejercicio DOM 3 ](./TEMA3/ejercicio13js.html) | Crear elementos |
  
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
