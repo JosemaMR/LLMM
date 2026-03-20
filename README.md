@@ -79,6 +79,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 8](./TEMA3/ejercicio8js.html) | Calculadora |
 | [Ejercicio 9](./TEMA3/ejercicio9js.html) | Celsius a Fahrenheit |
 | [Ejercicio 10](./TEMA3/ejercicio10js.html) | Funciones |
+| [Ejercicio DOM 1 ](./TEMA3/ejercicio11js.html) | Básicos |
 
 ## Tema 4 - XML, XML DOM, AJAX y Json
 
