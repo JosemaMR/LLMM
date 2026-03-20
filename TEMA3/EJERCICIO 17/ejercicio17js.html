@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>onClick imagen local</title>
+    <script>
+        function agregarImagen() {
+            var img = document.createElement("img");
+            img.src = "imagen.jpg"; 
+            img.width = 150;
+            document.getElementById("contenedor").appendChild(img);
+        }
+    </script>
+</head>
+<body>
+    <h2>Añadir imagen</h2>
+    <button onclick="agregarImagen()">Imagen</button>
+    <div id="contenedor"></div>
+</body>
+</html>
