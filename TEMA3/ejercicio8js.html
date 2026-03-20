@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #222;
+      font-family: sans-serif;
+    }
+
+    .calculator{
+      width: 400px;
+    }
+
+    .screen{
+      width: 100%;
+      font-size: 3rem;
+      padding: 0.5rem;
+      background: rgb(41,41,56);
+      color: white;
+      border:none;
+      text-align: right;
+    }
+
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      transition: all 0.5s linear;
+    }
+
+    button{
+      flex:0 0 25%;
+      border: 1px solid black;
+      padding: 1.5rem 0;
+      font-size: 2rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    button:hover{
+      background: blue;
+      color: white;
+    }
+
+    .btn-yellow{
+      background: rgb(245,146,62);
+      color: white;
+    }
+
+    .btn-grey{
+      background: rgb(224,224,224);
+    }
+
+    .btn-equal{
+      background: green;
+      color: white;
+      flex: 0 0 50%;
+    }
+
+    .btn-clear{
+      background: red;
+      color: white;
+      flex: 0 0 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" class="screen" id="screen" readonly>
+
+    <div class="buttons">
+      <button class="btn btn-grey" onclick="appendNumber('7')">7</button>
+      <button class="btn btn-grey" onclick="appendNumber('8')">8</button>
+      <button class="btn btn-grey" onclick="appendNumber('9')">9</button>
+      <button class="btn btn-yellow" onclick="appendNumber('/')">/</button>
+
+      <button class="btn btn-grey" onclick="appendNumber('4')">4</button>
+      <button class="btn btn-grey" onclick="appendNumber('5')">5</button>
+      <button class="btn btn-grey" onclick="appendNumber('6')">6</button>
+      <button class="btn btn-yellow" onclick="appendNumber('*')">*</button>
+
+      <button class="btn btn-grey" onclick="appendNumber('1')">1</button>
+      <button class="btn btn-grey" onclick="appendNumber('2')">2</button>
+      <button class="btn btn-grey" onclick="appendNumber('3')">3</button>
+      <button class="btn btn-yellow" onclick="appendNumber('-')">-</button>
+
+      <button class="btn btn-grey" onclick="appendNumber('0')">0</button>
+      <button class="btn btn-grey" onclick="appendNumber('.')">.</button>
+      <button class="btn btn-equal" onclick="calculate()">=</button>
+      <button class="btn btn-yellow" onclick="appendNumber('+')">+</button>
+
+      <button class="btn btn-clear" onclick="clearScreen()">C</button>
+    </div>
+  </div>
+
+  <script>
+    function appendNumber(value){
+      document.getElementById('screen').value += value;
+    }
+
+    function calculate(){
+      const screen = document.getElementById('screen');
+      if(screen.value === ''){
+        screen.value = 'Please Enter a Value';
+      } else {
+        try{
+          screen.value = eval(screen.value);
+        } catch {
+          screen.value = 'Error';
+        }
+      }
+    }
+
+    function clearScreen(){
+      document.getElementById('screen').value = '';
+    }
+  </script>
+</body>
+</html>
