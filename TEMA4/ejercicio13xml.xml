@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predicción meteorológica AEMET</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f7fb;
+      color: #222;
+    }
+
+    h1 {
+      color: #1f4e79;
+    }
+
+    .panel {
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      margin-bottom: 20px;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-right: 8px;
+    }
+
+    button {
+      cursor: pointer;
+      background: #1f4e79;
+      color: white;
+      border: none;
+      border-radius: 6px;
+    }
+
+    button:hover {
+      background: #163a5c;
+    }
+
+    .dia {
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .titulo-dia {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #1f4e79;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background: #eaf1f8;
+    }
+
+    .error {
+      color: darkred;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Información meteorológica AEMET</h1>
+
+  <div class="panel">
+    <label for="codigoINE"><strong>Código INE:</strong></label>
+    <input type="text" id="codigoINE" value="21041" />
+    <button onclick="cargarXML()">Cargar previsión</button>
+    <p>
+      Ejemplo: <strong>21041</strong> = Huelva
+    </p>
+  </div>
+
+  <div id="contenido"></div>
+
+  <script>
+    function cargarXML() {
+      const codigo = document.getElementById("codigoINE").value.trim();
+      const contenido = document.getElementById("contenido");
+
+      
+      const urlXML = "localidad_" + codigo + ".xml";
+
+      fetch(urlXML)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error("No se pudo cargar el XML. Revisa la ruta o el nombre del archivo.");
+          }
+          return response.text();
+        })
+        .then(texto => {
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(texto, "application/xml");
+
+          
+          if (xmlDoc.getElementsByTagName("parsererror").length > 0) {
+            throw new Error("El XML tiene errores de formato.");
+          }
+
+          mostrarDatos(xmlDoc);
+        })
+        .catch(error => {
+          contenido.innerHTML = "<p class='error'>Error: " + error.message + "</p>";
+        });
+    }
+
+    function mostrarDatos(xmlDoc) {
+      const contenido = document.getElementById("contenido");
+
+      const nombre = xmlDoc.getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+      const provincia = xmlDoc.getElementsByTagName("provincia")[0].childNodes[0].nodeValue;
+
+      let html = "<div class='panel'>";
+      html += "<h2>" + nombre + " (" + provincia + ")</h2>";
+      html += "</div>";
+
+      const dias = xmlDoc.getElementsByTagName("dia");
+
+      for (let i = 0; i < dias.length; i++) {
+        const dia = dias[i];
+        const fecha = dia.getAttribute("fecha");
+
+        const tempMax = dia.getElementsByTagName("temperatura")[0].getElementsByTagName("maxima")[0].childNodes[0].nodeValue;
+        const tempMin = dia.getElementsByTagName("temperatura")[0].getElementsByTagName("minima")[0].childNodes[0].nodeValue;
+
+        const humedadMax = dia.getElementsByTagName("humedad_relativa")[0].getElementsByTagName("maxima")[0].childNodes[0].nodeValue;
+        const humedadMin = dia.getElementsByTagName("humedad_relativa")[0].getElementsByTagName("minima")[0].childNodes[0].nodeValue;
+
+        html += "<div class='dia'>";
+        html += "<div class='titulo-dia'>Día " + fecha + "</div>";
+        html += "<p><strong>Temperatura:</strong> Máxima " + tempMax + " °C / Mínima " + tempMin + " °C</p>";
+        html += "<p><strong>Humedad relativa:</strong> Máxima " + humedadMax + "% / Mínima " + humedadMin + "%</p>";
+
+       
+        html += "<h3>Estado del cielo</h3>";
+        html += "<table>";
+        html += "<tr><th>Periodo</th><th>Descripción</th><th>Código</th></tr>";
+
+        const cielos = dia.getElementsByTagName("estado_cielo");
+        for (let j = 0; j < cielos.length; j++) {
+          const cielo = cielos[j];
+          const periodo = cielo.getAttribute("periodo") || "Sin periodo";
+          const descripcion = cielo.getAttribute("descripcion") || "";
+          const codigoCielo = cielo.childNodes[0] ? cielo.childNodes[0].nodeValue : "";
+          html += "<tr>";
+          html += "<td>" + periodo + "</td>";
+          html += "<td>" + descripcion + "</td>";
+          html += "<td>" + codigoCielo + "</td>";
+          html += "</tr>";
+        }
+
+        html += "</table>";
+
+       
+        html += "<h3>Viento</h3>";
+        html += "<table>";
+        html += "<tr><th>Periodo</th><th>Dirección</th><th>Velocidad</th></tr>";
+
+        const vientos = dia.getElementsByTagName("viento");
+        for (let j = 0; j < vientos.length; j++) {
+          const viento = vientos[j];
+          const periodo = viento.getAttribute("periodo") || "Sin periodo";
+          const direccion = viento.getElementsByTagName("direccion")[0].childNodes[0].nodeValue;
+          const velocidad = viento.getElementsByTagName("velocidad")[0].childNodes[0].nodeValue;
+
+          html += "<tr>";
+          html += "<td>" + periodo + "</td>";
+          html += "<td>" + direccion + "</td>";
+          html += "<td>" + velocidad + " km/h</td>";
+          html += "</tr>";
+        }
+
+        html += "</table>";
+        html += "</div>";
+      }
+
+      contenido.innerHTML = html;
+    }
+  </script>
+
+</body>
+</html>
