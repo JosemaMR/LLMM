@@ -205,13 +205,13 @@
     </question>
 
     <question id="18">
-        <wording>¿Cómo se llama el martillo mágico de Thor?</wording>
+        <wording>¿Qué miembro de los 4 Fantásticos murió cerrando el portal de la Zona Negativa?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Mjolnir</choice>
-            <choice>Stormbreaker</choice>
-            <choice>Gungnir</choice>
-            <choice>Hofund</choice>
+            <choice>Mr Fantástico, Reed Richards</choice>
+            <choice>La mujer invisible, Sue Storm</choice>
+            <choice correct="yes">La antorcha humana, Jhonny Storm</choice>
+            <choice>La cosa, Ben Grim</choice>
         </choices>
     </question>
 
