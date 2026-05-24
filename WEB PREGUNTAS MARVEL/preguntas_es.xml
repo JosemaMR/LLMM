@@ -183,13 +183,13 @@
     </question>
 
     <question id="16">
-        <wording>¿Cuál es el nombre de la organización terrorista enemiga histórica del Capitán América cuyo lema es "Corta una cabeza y surgirán dos más"?</wording>
+        <wording>¿Cuál es el nombre de la organización terrorista enemiga del Capitán América cuyo lema es "Corta una cabeza y surgirán dos más"?</wording>
         <image></image>
         <choices>
             <choice correct="yes">Hydra</choice>
             <choice>A.I.M.</choice>
-            <choice>Ten Rings</choice>
-            <choice>Black Order</choice>
+            <choice>El Clan de los Diez Anillos</choice>
+            <choice>La Mano</choice>
         </choices>
     </question>
 
@@ -227,13 +227,13 @@
     </question>
 
     <question id="20">
-        <wording>¿Qué especie alienígena cambiaformas es conocida por infiltrarse en la Tierra en los cómics y series de Marvel?</wording>
+        <wording>¿Qué villano de Spiderman participó de forma involuntaria en la muerte del Tío Ben?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Skrulls</choice>
-            <choice>Kree</choice>
-            <choice>Chitauri</choice>
-            <choice>Sovereign</choice>
+            <choice>Venom</choice>
+            <choice correct="yes">El Hombre de Arena</choice>
+            <choice>El Lagarto</choice>
+            <choice>Dr Octopus</choice>
         </choices>
     </question>
 
