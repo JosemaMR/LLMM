@@ -19,7 +19,7 @@
    
 <question id="1">
         <wording>¿Cuál es el nombre real de Iron Man?</wording>
-        <image></image>
+        <image>images/IronMan.jpg</image>
         <choices>
             <choice>Steve Rogers </choice>
             <choice  correct="yes">Tony Stark</choice>
