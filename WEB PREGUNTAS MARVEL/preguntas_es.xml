@@ -41,11 +41,11 @@
 .
     <question id="3">
         <wording>¿Cómo se llama la inteligencia artificial creada por Tony Stark que con el tiempo se convertiría en Visión?</wording>
-        <image></image>
+        <image>images/IA.jpg</image>
         <choices>
-            <choice correct="yes">J.A.R.V.I.S.</choice>
             <choice>F.R.I.D.A.Y.</choice>
             <choice>K.A.R.E.N.</choice>
+            <choice correct="yes">J.A.R.V.I.S.</choice>
             <choice>E.D.I.T.H.</choice>
         </choices>
     </question>
