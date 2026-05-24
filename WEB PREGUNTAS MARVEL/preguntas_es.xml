@@ -29,13 +29,13 @@
     </question>
 
     <question id="2">
-        <wording>¿Quién es el hermano adoptivo de Thor y Dios de la Travesura?</wording>
+        <wording>¿Quién creó originalmente a los Centinelas?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Loki</choice>
-            <choice>Odin</choice>
-            <choice>Hela</choice>
-            <choice>Balder</choice>
+            <choice>Industrias Stark, bajo un contrato secreto con el gobierno de los Estados Unidos que Tony Stark canceló al enterarse</choice>
+            <choice correct="yes">Bolivar Trask, un antropólogo que temía que la evolución mutante extinguiera a la raza humana</choice>
+            <choice>Mr Siniestro, como una herramienta para capturar mutantes y experimentar con su ADN</choice>
+            <choice>El coronel William Stryker, utilizando tecnología alienígena recuperada</choice>
         </choices>
     </question>
 .
@@ -84,13 +84,13 @@
     </question>
 
     <question id="7">
-        <wording>¿Cómo se llama el reino cuántico y subatómico de donde provienen los poderes de Ant-Man?</wording>
+        <wording>¿Cómo obtuvo Lobezno su esqueleto de Adamantium?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Reino Cuántico</choice>
-            <choice>Zona Negativa</choice>
-            <choice>Microverso</choice>
-            <choice>Dimensión Oscura</choice>
+            <choice>Se ofreció como voluntario en el proyecto canadiense "Arma X" para obtener el poder necesario para vengarse de Dientes de Sable</choice>
+            <choice>Nació con él de forma natural debido a una mutación secundaria que se activó durante su adolescencia</choice>
+            <choice>Apocalipsis lo capturó y se lo implantó quirúrgicamente como recompensa al convertirlo en su Jinete de la Muerte</choice>
+            <choice correct="yes">Fue secuestrado, drogado y sometido a un experimento científico forzoso por el programa militar "Arma X", ya que su factor de curación era el único capaz de sobrevivir al proceso</choice>
         </choices>
     </question>
 
@@ -106,13 +106,13 @@
     </question>
 
     <question id="9">
-        <wording>¿Qué criatura mitológica o animal representa el alter ego de T'Challa?</wording>
+        <wording>¿Quiénes son los padres biológicos de Rondador Nocturno?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Pantera Negra</choice>
-            <choice>Halcón</choice>
-            <choice>Tigre Blanco</choice>
-            <choice>Wolverine</choice>
+            <choice correct="yes">Mística y el demonio Azazel</choice>
+            <choice>Mística y Destino</choice>
+            <choice>Charles Xavier y una mutante refugiada de Genosha</choice>
+            <choice>Dos artistas de circo alemanes que lo abandonaron al ver su aspecto físico</choice>
         </choices>
     </question>
 
