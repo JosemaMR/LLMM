@@ -172,12 +172,12 @@
     </question>
 
     <question id="15">
-        <wording>¿Quién es el padre biológico de Star-Lord (Peter Quill)?</wording>
+        <wording>¿Quién es el padre biológico de Star-Lord?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Ego el Planeta Viviente</choice>
             <choice>Yondu Udonta</choice>
             <choice>Thanos</choice>
+            <choice correct="yes">Ego el Planeta Viviente</choice>
             <choice>Odin</choice>
         </choices>
     </question>
