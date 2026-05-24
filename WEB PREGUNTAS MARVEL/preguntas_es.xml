@@ -18,13 +18,13 @@
 
    
 <question id="1">
-        <wording>¿Cuál es el metal ficticio de Wakanda del que está hecho el escudo del Capitán América?</wording>
+        <wording>¿Cuál es el nombre real de Iron Man?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Vibranium</choice>
-            <choice>Adamantium</choice>
-            <choice>Uru</choice>
-            <choice>Neoradio</choice>
+            <choice>Steve Rogers </choice>
+            <choice  correct="yes">Tony Stark</choice>
+            <choice>Peter Quill</choice>
+            <choice>Charles Xavier</choice>
         </choices>
     </question>
 
