@@ -38,7 +38,7 @@
             <choice>Balder</choice>
         </choices>
     </question>
-
+.
     <question id="3">
         <wording>¿Cómo se llama la inteligencia artificial creada por Tony Stark que con el tiempo se convertiría en Visión?</wording>
         <image></image>
@@ -96,7 +96,7 @@
 
     <question id="8">
         <wording>¿Cuál es el nombre de la nación gobernada por Victor Von Doom?</wording>
-        <image></image>
+        <image>./images/Latveria.jpg</image>
         <choices>
             <choice>Atlantis</choice>
             <choice>Krakoa</choice>
