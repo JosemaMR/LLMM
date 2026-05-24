@@ -95,13 +95,13 @@
     </question>
 
     <question id="8">
-        <wording>¿Cuál es el nombre real de Black Widow (Viuda Negra)?</wording>
+        <wording>¿Cuál es el nombre de la nación gobernada por Victor Von Doom?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Natasha Romanoff</choice>
-            <choice>Yelena Belova</choice>
-            <choice>Wanda Maximoff</choice>
-            <choice>Carol Danvers</choice>
+            <choice>Atlantis</choice>
+            <choice>Krakoa</choice>
+            <choice>Wakanda</choice>
+            <choice correct="yes">Latveria</choice>
         </choices>
     </question>
 
