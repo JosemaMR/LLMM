@@ -16,32 +16,225 @@
 
 <test>
 
-    <question id="1">
-
-        <wording>¿Cuál es el verdadero nombre de Iron Man?</wording>
-
+   
+<question id="1">
+        <wording>¿Cuál es el metal ficticio de Wakanda del que está hecho el escudo del Capitán América?</wording>
         <image></image>
-
         <choices>
-
-            <choice correct="yes">
-                Tony Stark
-            </choice>
-
-            <choice>
-                Steve Rogers
-            </choice>
-
-            <choice>
-                Bruce Banner
-            </choice>
-
-            <choice>
-                Thor
-            </choice>
-
+            <choice correct="yes">Vibranium</choice>
+            <choice>Adamantium</choice>
+            <choice>Uru</choice>
+            <choice>Neoradio</choice>
         </choices>
+    </question>
 
+    <question id="2">
+        <wording>¿Quién es el hermano adoptivo de Thor y Dios de la Travesura?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Loki</choice>
+            <choice>Odin</choice>
+            <choice>Hela</choice>
+            <choice>Balder</choice>
+        </choices>
+    </question>
+
+    <question id="3">
+        <wording>¿Cómo se llama la inteligencia artificial creada por Tony Stark que luego se convierte en Visión?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">J.A.R.V.I.S.</choice>
+            <choice>F.R.I.D.A.Y.</choice>
+            <choice>K.A.R.E.N.</choice>
+            <choice>E.D.I.T.H.</choice>
+        </choices>
+    </question>
+
+    <question id="4">
+        <wording>¿Cuál es la identidad secreta de Spider-Man?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Peter Parker</choice>
+            <choice>Miles Morales</choice>
+            <choice>Ned Leeds</choice>
+            <choice>Gwen Stacy</choice>
+        </choices>
+    </question>
+
+    <question id="5">
+        <wording>¿Qué gema del infinito está incrustada en la frente de Visión?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Gema de la Mente</choice>
+            <choice>Gema del Espacio</choice>
+            <choice>Gema del Poder</choice>
+            <choice>Gema del Tiempo</choice>
+        </choices>
+    </question>
+
+    <question id="6">
+        <wording>¿Quién es el titán loco que busca recolectar las seis Gemas del Infinito?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Thanos</choice>
+            <choice>Darkseid</choice>
+            <choice>Ronan</choice>
+            <choice>Ego</choice>
+        </choices>
+    </question>
+
+    <question id="7">
+        <wording>¿Cómo se llama el reino cuántico y subatómico de donde provienen los poderes de Ant-Man?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Reino Cuántico</choice>
+            <choice>Zona Negativa</choice>
+            <choice>Microverso</choice>
+            <choice>Dimensión Oscura</choice>
+        </choices>
+    </question>
+
+    <question id="8">
+        <wording>¿Cuál es el nombre real de Black Widow (Viuda Negra)?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Natasha Romanoff</choice>
+            <choice>Yelena Belova</choice>
+            <choice>Wanda Maximoff</choice>
+            <choice>Carol Danvers</choice>
+        </choices>
+    </question>
+
+    <question id="9">
+        <wording>¿Qué criatura mitológica o animal representa el alter ego de T'Challa?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Pantera Negra</choice>
+            <choice>Halcón</choice>
+            <choice>Tigre Blanco</choice>
+            <choice>Wolverine</choice>
+        </choices>
+    </question>
+
+    <question id="10">
+        <wording>¿Quién es el director original de S.H.I.E.L.D. que reúne a los Vengadores?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Nick Fury</choice>
+            <choice>Phil Coulson</choice>
+            <choice>Maria Hill</choice>
+            <choice>Alexander Pierce</choice>
+        </choices>
+    </question>
+
+    <question id="11">
+        <wording>¿De qué planeta es originario el personaje de Thor?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Asgard</choice>
+            <choice>Sakaar</choice>
+            <choice>Xandar</choice>
+            <choice>Hala</choice>
+        </choices>
+    </question>
+
+    <question id="12">
+        <wording>¿Cuál es el nombre del mapache antropomórfico que es miembro de los Guardianes de la Galaxia?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Rocket</choice>
+            <choice>Groot</choice>
+            <choice>Quill</choice>
+            <choice>Drax</choice>
+        </choices>
+    </question>
+
+    <question id="13">
+        <wording>¿Qué evento o sustancia transformó a Bruce Banner en Hulk?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Radiación Gamma</choice>
+            <choice>Suero del Súper Soldado</choice>
+            <choice>Una picadura de araña</choice>
+            <choice>Un rayo cósmico</choice>
+        </choices>
+    </question>
+
+    <question id="14">
+        <wording>¿Cómo se llama la mística ciudad oculta donde entrena el Doctor Strange?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Kamar-Taj</choice>
+            <choice>K'un-Lun</choice>
+            <choice>Ta Lo</choice>
+            <choice>Attilan</choice>
+        </choices>
+    </question>
+
+    <question id="15">
+        <wording>¿Quién es el padre biológico de Star-Lord (Peter Quill)?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Ego el Planeta Viviente</choice>
+            <choice>Yondu Udonta</choice>
+            <choice>Thanos</choice>
+            <choice>Odin</choice>
+        </choices>
+    </question>
+
+    <question id="16">
+        <wording>¿Cuál es el nombre de la organización terrorista enemiga histórica del Capitán América cuyo lema es "Corta una cabeza y surgirán dos más"?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Hydra</choice>
+            <choice>A.I.M.</choice>
+            <choice>Ten Rings</choice>
+            <choice>Black Order</choice>
+        </choices>
+    </question>
+
+    <question id="17">
+        <wording>¿Qué superheroína es conocida como la Bruja Escarlata?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Wanda Maximoff</choice>
+            <choice>Natasha Romanoff</choice>
+            <choice>Carol Danvers</choice>
+            <choice>Jean Grey</choice>
+        </choices>
+    </question>
+
+    <question id="18">
+        <wording>¿Cómo se llama el martillo mágico de Thor?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Mjolnir</choice>
+            <choice>Stormbreaker</choice>
+            <choice>Gungnir</choice>
+            <choice>Hofund</choice>
+        </choices>
+    </question>
+
+    <question id="19">
+        <wording>¿Cuál es el nombre real de Falcon, quien más tarde asume el manto del Capitán América?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Sam Wilson</choice>
+            <choice>Bucky Barnes</choice>
+            <choice>Rhodey Rhodes</choice>
+            <choice>Clint Barton</choice>
+        </choices>
+    </question>
+
+    <question id="20">
+        <wording>¿Qué especie alienígena cambiaformas es conocida por infiltrarse en la Tierra en los cómics y series de Marvel?</wording>
+        <image></image>
+        <choices>
+            <choice correct="yes">Skrulls</choice>
+            <choice>Kree</choice>
+            <choice>Chitauri</choice>
+            <choice>Sovereign</choice>
+        </choices>
     </question>
 
 </test>
