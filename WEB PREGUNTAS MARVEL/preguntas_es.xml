@@ -30,7 +30,7 @@
 
     <question id="2">
         <wording>¿Quién creó originalmente a los Centinelas?</wording>
-        <image></image>
+        <image>images/Centinela.jpg</image>
         <choices>
             <choice>Industrias Stark, bajo un contrato secreto con el gobierno de los Estados Unidos que Tony Stark canceló al enterarse</choice>
             <choice correct="yes">Bolivar Trask, un antropólogo que temía que la evolución mutante extinguiera a la raza humana</choice>
