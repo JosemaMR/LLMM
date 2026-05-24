@@ -150,7 +150,7 @@
     </question>
 
     <question id="13">
-        <wording>¿Qué evento o sustancia transformó a Bruce Banner en Hulk?</wording>
+        <wording>¿Qué sustancia transformó a Bruce Banner en Hulk?</wording>
         <image></image>
         <choices>
             <choice correct="yes">Radiación Gamma</choice>
