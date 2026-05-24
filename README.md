@@ -109,12 +109,12 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio JSON 5](./TEMA4/ejercicio17xml.html) | API NASA |
 
 ## Quarterly Work 2. Volbeat Fan Web
-[Quarterly Work](https://josemamr.github.io/LLMM/WEB%20PREGUNTAS%20MARVEL/index.html)
-
+[Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
 ## Tema 4 - XML DTD, XPath, RSS
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA4/ejercicio1xml.xml) | Preguntas|
 
 ## Quarterly Work 3. Web Cuestionario Marvel
-[Quarterly Work](https://josemamr.github.io/LLMM/WEB%20VOLBEAT/index.html)
+[Quarterly Work](https://josemamr.github.io/LLMM/WEB%20PREGUNTAS%20MARVEL
+/index.html)
