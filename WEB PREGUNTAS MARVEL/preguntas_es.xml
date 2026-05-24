@@ -120,7 +120,7 @@
         <wording>¿Quién es el director original de S.H.I.E.L.D. que reúne a los Vengadores?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Nick Fury</choice>
+            <choice correct="yes">Nick Furia</choice>
             <choice>Phil Coulson</choice>
             <choice>Maria Hill</choice>
             <choice>Alexander Pierce</choice>
@@ -128,13 +128,13 @@
     </question>
 
     <question id="11">
-        <wording>¿De qué planeta es originario el personaje de Thor?</wording>
+        <wording>¿Cómo quedó en silla de ruedas el profesor Charles Xavier?</wording>
         <image></image>
         <choices>
-            <choice correct="yes">Asgard</choice>
-            <choice>Sakaar</choice>
-            <choice>Xandar</choice>
-            <choice>Hala</choice>
+            <choice>Quedó paralizado tras un colapso nervioso y físico extremo al intentar conectar su mente con todos los mutantes del planeta a la vez usando un prototipo defectuoso de Cerebro</choice>
+            <choice correct="yes">Durante una batalla campal en Cuba contra Sebastian Shaw, una bala desviada por su amigo Magneto le impactó accidentalmente en la columna vertebral</choice>
+            <choice>Un alienígena llamado Lucifer le lanzó una enorme roca que aplastó sus piernas en una cueva de los Himalayas, después de que Xavier frustrara sus planes de invasión</choice>
+            <choice>Sufrió un atentado con coche bomba perpetrado por un grupo extremista anti-mutante a las puertas de su mansión en Westchester, Nueva York</choice>
         </choices>
     </question>
 
