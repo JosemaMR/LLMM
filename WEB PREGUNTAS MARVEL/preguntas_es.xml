@@ -40,7 +40,7 @@
     </question>
 
     <question id="3">
-        <wording>¿Cómo se llama la inteligencia artificial creada por Tony Stark que luego se convierte en Visión?</wording>
+        <wording>¿Cómo se llama la inteligencia artificial creada por Tony Stark que con el tiempo se convertiría en Visión?</wording>
         <image></image>
         <choices>
             <choice correct="yes">J.A.R.V.I.S.</choice>
