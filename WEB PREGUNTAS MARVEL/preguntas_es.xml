@@ -73,13 +73,13 @@
     </question>
 
     <question id="6">
-        <wording>¿Quién es el titán loco que busca recolectar las seis Gemas del Infinito?</wording>
-        <image></image>
+        <wording>¿De dónde sacó originalmente Spider-Man el traje del simbionte?</wording>
+        <image>images/Traje.jpg</image>
         <choices>
-            <choice correct="yes">Thanos</choice>
-            <choice>Darkseid</choice>
-            <choice>Ronan</choice>
-            <choice>Ego</choice>
+            <choice>Lo encontró en un laboratorio de Industrias Oscorp mientras investigaba un proyecto secreto de bio-armaduras</choice>
+            <choice>Cayó a la Tierra dentro de un meteorito que impactó Central Park mientras Peter paseaba con Mary Jane</choice>
+            <choice correct="yes">Lo obtuvo en Battleword durante el evento Secret Wars, al usar una máquina alienígena</choice>
+            <choice>Se lo diseñó Reed Richards utilizando nanotecnología para potenciar sus habilidades físicas</choice>
         </choices>
     </question>
 
