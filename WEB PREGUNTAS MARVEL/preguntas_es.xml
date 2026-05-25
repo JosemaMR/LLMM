@@ -162,7 +162,7 @@
 
     <question id="14">
         <wording>¿Cómo se llama la mística ciudad oculta donde entrena el Doctor Strange?</wording>
-        <image></image>
+        <image>images/Strange.jpg</image>
         <choices>
             <choice correct="yes">Kamar-Taj</choice>
             <choice>K'un-Lun</choice>
