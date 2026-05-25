@@ -228,7 +228,7 @@
 
     <question id="20">
         <wording>¿Qué villano de Spiderman participó de forma involuntaria en la muerte del Tío Ben?</wording>
-        <image></image>
+        <image>images/Ben.jpg</image>
         <choices>
             <choice>Venom</choice>
             <choice correct="yes">El Hombre de Arena</choice>
