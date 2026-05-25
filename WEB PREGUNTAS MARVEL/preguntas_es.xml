@@ -51,13 +51,13 @@
     </question>
 
     <question id="4">
-        <wording>¿Cuál es la identidad secreta de Spider-Man?</wording>
-        <image></image>
+        <wording>¿Quién mató a Gwen Stacy, el primer gran amor de Spider-Man?</wording>
+        <image>images/Gwen.jpg</image>
         <choices>
-            <choice correct="yes">Peter Parker</choice>
-            <choice>Miles Morales</choice>
-            <choice>Ned Leeds</choice>
-            <choice>Gwen Stacy</choice>
+            <choice>El Duende Verde, quien la empujó deliberadamente desde lo alto del puente George Washington</choice>
+            <choice correct="yes">El propio Spider-Man, ya que el latigazo cervical de su telaraña al intentar salvarla en la caída le rompió el cuello</choice>
+            <choice>El Doctor Octopus, al usarla como escudo humano durante una batalla en la azotea de un edificio</choice>
+            <choice>Falleció en un accidente de avión provocado por los planos secretos que robó su padre, el capitán Stacy</choice>
         </choices>
     </question>
 
