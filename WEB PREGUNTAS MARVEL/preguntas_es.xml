@@ -161,7 +161,7 @@
     </question>
 
     <question id="14">
-        <wording>¿Cómo se llama la mística ciudad oculta donde entrena el Doctor Strange?</wording>
+        <wording>¿Cómo se llama la ciudad oculta donde entrena el Doctor Strange?</wording>
         <image>images/Strange.jpg</image>
         <choices>
             <choice correct="yes">Kamar-Taj</choice>
@@ -194,13 +194,13 @@
     </question>
 
     <question id="17">
-        <wording>¿Qué superheroína es conocida como la Bruja Escarlata?</wording>
-        <image></image>
+        <wording>¿Quién construyó originalmente las alas mecánicas de Falcon?</wording>
+        <image>images/Falcon-jpg</image>
         <choices>
-            <choice correct="yes">Wanda Maximoff</choice>
-            <choice>Natasha Romanoff</choice>
-            <choice>Carol Danvers</choice>
-            <choice>Jean Grey</choice>
+            <choice>El ejército de los EE. UU., como parte de un proyecto secreto de rescate táctico llamado "EXO-7 Falcon"</choice>
+            <choice>S.H.I.E.L.D., por orden directa de Nick Fury para crear un compañero volador para el Capitán América</choice>
+            <choice>El propio Sam Wilson, usando chatarra tecnológica que robó de una base abandonada de Hydra</choice>
+            <choice correct="yes">Black Panther, quien le regaló el traje de alta tecnología fabricado con vibranium en Wakanda</choice>
         </choices>
     </question>
 
