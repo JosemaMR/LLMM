@@ -184,7 +184,7 @@
 
     <question id="16">
         <wording>¿Cuál es el nombre de la organización terrorista enemiga del Capitán América cuyo lema es "Corta una cabeza y surgirán dos más"?</wording>
-        <image></image>
+        <image>images/Hydra.jpg</image>
         <choices>
             <choice correct="yes">Hydra</choice>
             <choice>A.I.M.</choice>
