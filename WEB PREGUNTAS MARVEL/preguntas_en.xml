@@ -1,1 +1,219 @@
+<question id="1">
+        <wording>What is Iron Man's real name?</wording>
+        <image>images/IronMan.jpg</image>
+        <choices>
+            <choice>Steve Rogers</choice>
+            <choice correct="yes">Tony Stark</choice>
+            <choice>Peter Quill</choice>
+            <choice>Charles Xavier</choice>
+        </choices>
+    </question>
 
+    <question id="2">
+        <wording>Who originally created the Sentinels?</wording>
+        <image>images/Centinela.jpg</image>
+        <choices>
+            <choice>Stark Industries, under a secret contract with the United States government that Tony Stark canceled upon finding out</choice>
+            <choice correct="yes">Bolivar Trask, an anthropologist who feared that mutant evolution would drive the human race to extinction</choice>
+            <choice>Mr. Sinister, as a tool to capture mutants and experiment on their DNA</choice>
+            <choice>Colonel William Stryker, using salvaged alien technology</choice>
+        </choices>
+    </question>
+
+    <question id="3">
+        <wording>What is the name of the artificial intelligence created by Tony Stark that would eventually become Vision?</wording>
+        <image>images/IA.jpg</image>
+        <choices>
+            <choice>F.R.I.D.A.Y.</choice>
+            <choice>K.A.R.E.N.</choice>
+            <choice correct="yes">J.A.R.V.I.S.</choice>
+            <choice>E.D.I.T.H.</choice>
+        </choices>
+    </question>
+
+    <question id="4">
+        <wording>Who killed Gwen Stacy, Spider-Man's first great love?</wording>
+        <image>images/Gwen.jpg</image>
+        <choices>
+            <choice>The Green Goblin, who deliberately pushed her from the top of the George Washington Bridge</choice>
+            <choice correct="yes">Spider-Man himself, as the whiplash from his webbing when trying to save her from the fall snapped her neck</choice>
+            <choice>Doctor Octopus, by using her as a human shield during a battle on a building rooftop</choice>
+            <choice>She died in a plane crash caused by the secret plans stolen by her father, Captain Stacy</choice>
+        </choices>
+    </question>
+
+    <question id="5">
+        <wording>Which Infinity Stone is embedded in Vision's forehead?</wording>
+        <image>images/Gema.jpg</image>
+        <choices>
+            <choice>Space Stone</choice>
+            <choice>Power Stone</choice>
+            <choice>Time Stone</choice>
+            <choice correct="yes">Mind Stone</choice>
+        </choices>
+    </question>
+
+    <question id="6">
+        <wording>Where did Spider-Man originally get the symbiote suit from?</wording>
+        <image>images/Traje.jpg</image>
+        <choices>
+            <choice>He found it in an Oscorp Industries lab while investigating a secret bio-armor project</choice>
+            <choice>It fell to Earth inside a meteorite that crashed in Central Park while Peter was walking with Mary Jane</choice>
+            <choice correct="yes">He obtained it on Battleworld during the Secret Wars event, using an alien machine</choice>
+            <choice>It was designed for him by Reed Richards using nanotechnology to enhance his physical abilities</choice>
+        </choices>
+    </question>
+
+    <question id="7">
+        <wording>How did Wolverine get his Adamantium skeleton?</wording>
+        <image>images/Lobezno.jpg</image>
+        <choices>
+            <choice>He volunteered for the Canadian project "Weapon X" to gain the power needed to take revenge on Sabretooth</choice>
+            <choice>He was born with it naturally due to a secondary mutation that activated during his adolescence</choice>
+            <choice>Apocalypse captured him and surgically implanted it as a reward for turning him into his Horseman of Death</choice>
+            <choice correct="yes">He was kidnapped, drugged, and subjected to a forced scientific experiment by the "Weapon X" military program, as his healing factor was the only one capable of surviving the process</choice>
+        </choices>
+    </question>
+
+    <question id="8">
+        <wording>What is the name of the nation ruled by Victor Von Doom?</wording>
+        <image>images/Latveria.jpg</image>
+        <choices>
+            <choice>Atlantis</choice>
+            <choice>Krakoa</choice>
+            <choice>Wakanda</choice>
+            <choice correct="yes">Latveria</choice>
+        </choices>
+    </question>
+
+    <question id="9">
+        <wording>Who are Nightcrawler's biological parents?</wording>
+        <image>images/Rondador.jpg</image>
+        <choices>
+            <choice correct="yes">Mystique and the demon Azazel</choice>
+            <choice>Mystique and Destiny</choice>
+            <choice>Charles Xavier and a refugee mutant from Genosha</choice>
+            <choice>Two German circus performers who abandoned him upon seeing his physical appearance</choice>
+        </choices>
+    </question>
+
+    <question id="10">
+        <wording>Who is the original Director of S.H.I.E.L.D. who assembles the Avengers?</wording>
+        <image>images/Shield.jpg</image>
+        <choices>
+            <choice correct="yes">Nick Fury</choice>
+            <choice>Phil Coulson</choice>
+            <choice>Maria Hill</choice>
+            <choice>Alexander Pierce</choice>
+        </choices>
+    </question>
+
+    <question id="11">
+        <wording>How did Professor Charles Xavier end up in a wheelchair?</wording>
+        <image>images/Xavier.jpg</image>
+        <choices>
+            <choice>He was paralyzed following an extreme physical and nervous breakdown while trying to connect his mind to every mutant on the planet at once using a faulty Cerebro prototype</choice>
+            <choice correct="yes">During a massive battle in Cuba against Sebastian Shaw, a stray bullet deflected by his friend Magneto accidentally struck his spine</choice>
+            <choice>An alien named Lucifer dropped a massive rock that crushed his legs in a cave in the Himalayas, after Xavier thwarted his invasion plans</choice>
+            <choice>He suffered a car bomb attack carried out by an anti-mutant extremist group right outside his mansion in Westchester, New York</choice>
+        </choices>
+    </question>
+
+    <question id="12">
+        <wording>How did Daredevil get his red suit?</wording>
+        <image>images/Daredevil.jpg</image>
+        <choices>
+            <choice correct="yes">He sewed it himself using the fabric from the old boxing robe of his late father, Jack "Battlin'" Murdock</choice>
+            <choice>He commissioned it from an underworld tailor named Melvin Potter, who reinforced it with kevlar fiber</choice>
+            <choice>He stole it from a Hand clan ninja after defeating him during his first mission in Hell's Kitchen</choice>
+            <choice>It was a gift from Stark Industries after helping Iron Man during a crisis in New York</choice>
+        </choices>
+    </question>
+
+    <question id="13">
+        <wording>What substance transformed Bruce Banner into the Hulk?</wording>
+        <image>images/Hulk.jpg</image>
+        <choices>
+            <choice>The Super Soldier Serum</choice>
+            <choice correct="yes">Gamma Radiation</choice>
+            <choice>A spider bite</choice>
+            <choice>A cosmic ray</choice>
+        </choices>
+    </question>
+
+    <question id="14">
+        <wording>What is the name of the hidden city where Doctor Strange trains?</wording>
+        <image>images/Strange.jpg</image>
+        <choices>
+            <choice correct="yes">Kamar-Taj</choice>
+            <choice>K'un-Lun</choice>
+            <choice>Ta Lo</choice>
+            <choice>Attilan</choice>
+        </choices>
+    </question>
+
+    <question id="15">
+        <wording>Who is Star-Lord's biological father?</wording>
+        <image>images/Ego.jpg</image>
+        <choices>
+            <choice>Yondu Udonta</choice>
+            <choice>Thanos</choice>
+            <choice correct="yes">Ego the Living Planet</choice>
+            <choice>Odin</choice>
+        </choices>
+    </question>
+
+    <question id="16">
+        <wording>What is the name of the terrorist organization and enemy of Captain America whose motto is "Cut off one head, two more shall take its place"?</wording>
+        <image>images/Hydra.jpg</image>
+        <choices>
+            <choice correct="yes">Hydra</choice>
+            <choice>A.I.M.</choice>
+            <choice>The Ten Rings Clan</choice>
+            <choice>The Hand</choice>
+        </choices>
+    </question>
+
+    <question id="17">
+        <wording>Who originally built Falcon's mechanical wings?</wording>
+        <image>images/Falcon.jpg</image>
+        <choices>
+            <choice>The U.S. military, as part of a secret tactical rescue project called "EXO-7 Falcon"</choice>
+            <choice>S.H.I.E.L.D., by direct order of Nick Fury to create a flying companion for Captain America</choice>
+            <choice>Sam Wilson himself, using technological scrap he stole from an abandoned Hydra base</choice>
+            <choice correct="yes">Black Panther, who gifted him the high-tech suit made of vibranium in Wakanda</choice>
+        </choices>
+    </question>
+
+    <question id="18">
+        <wording>Which member of the Fantastic Four died while closing the Negative Zone portal?</wording>
+        <image>images/Antorcha.jpg</image>
+        <choices>
+            <choice>Mr. Fantastic, Reed Richards</choice>
+            <choice>The Invisible Woman, Sue Storm</choice>
+            <choice correct="yes">The Human Torch, Johnny Storm</choice>
+            <choice>The Thing, Ben Grimm</choice>
+        </choices>
+    </question>
+
+    <question id="19">
+        <wording>What is the real origin of Ultron?</wording>
+        <image>images/Ultron.jpg</image>
+        <choices>
+            <choice>It was a global defense program secretly created by Hydra using alien software recovered from Thanos' ship</choice>
+            <choice>He was created by Tony Stark and Bruce Banner using the Artificial Intelligence contained within Loki's scepter to protect Earth from space threats</choice>
+            <choice>It was born spontaneously on the internet from a Russian military computer virus that gained self-awareness after absorbing data from Stark Industries</choice>
+            <choice correct="yes">He was built in a lab by Hank Pym, who based Ultron's brain patterns on his own mind</choice>
+        </choices>
+    </question>
+
+    <question id="20">
+        <wording>Which Spider-Man villain was involuntarily involved in Uncle Ben's death?</wording>
+        <image>images/Ben.jpg</image>
+        <choices>
+            <choice>Venom</choice>
+            <choice correct="yes">Sandman</choice>
+            <choice>The Lizard</choice>
+            <choice>Doctor Octopus</choice>
+        </choices>
+    </question>
