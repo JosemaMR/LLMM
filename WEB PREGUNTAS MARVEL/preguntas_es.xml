@@ -139,13 +139,13 @@
     </question>
 
     <question id="12">
-        <wording>¿Cuál es el nombre del mapache antropomórfico que es miembro de los Guardianes de la Galaxia?</wording>
-        <image></image>
+        <wording>Cómo obtuvo Daredevil su icónico traje rojo?</wording>
+        <image>images/Daredevil.jpg</image>
         <choices>
-            <choice correct="yes">Rocket</choice>
-            <choice>Groot</choice>
-            <choice>Quill</choice>
-            <choice>Drax</choice>
+            <choice correct="yes">Lo cosió él mismo usando la tela del viejo camisón de boxeo de su difunto padre, Jack "Demoledor" Murdock</choice>
+            <choice>Se lo encargó a un sastre del hampa llamado Melvin Potter, quien lo reforzó con fibra de kevlar</choice>
+            <choice>Se lo robó a un ninja del clan de La Mano tras derrotarlo en su primera misión en Hell's Kitchen</choice>
+            <choice>Fue un regalo de Industrias Stark tras ayudar a Iron Man en una crisis en Nueva York</choice>
         </choices>
     </question>
 
