@@ -5,6 +5,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 [JosemaMR](https://josemamr.github.io/LLMM/)
 
 ## Tema 0 - Introducción
+
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Pequeña Web](./TEMA%200/Lawrence.html) | Página web sencilla con encabezado y párrafo |
@@ -12,6 +13,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [SVG](./TEMA%200/SVG.svg) | Gráfico SVG |
 
 ## Tema 1 - HTML 
+
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA1/ejercicio1html.html) | Cabeceras y tipos de texto |
@@ -46,6 +48,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 30](./TEMA1/ejercicio26html.html) | Website |
 
 ## Tema 2 - CSS 
+
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA2/EJERCICIO%201/ejercicio1css.html) | Texto formateado en currículum|
@@ -60,9 +63,11 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 10](./TEMA1/ejercicio10html.html) | Flexbox |
 
 ## Quarterly Work 1. Web4U
+
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB4U/w4uindexes.html)
 
 ## Tema 3 - JavaScript y HTML DOM
+
 | Ejercicio | Descripción |
 |-----------|-------------|
 | [Ejercicio 1](./TEMA3/EJERCICIO%201/ejercicio1js.html) | Básico |
