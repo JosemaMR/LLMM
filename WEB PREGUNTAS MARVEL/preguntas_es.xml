@@ -151,10 +151,10 @@
 
     <question id="13">
         <wording>¿Qué sustancia transformó a Bruce Banner en Hulk?</wording>
-        <image></image>
+        <image>images/Hulk.jpg</image>
         <choices>
+            <choice>El Suero del Súper Soldado</choice>
             <choice correct="yes">Radiación Gamma</choice>
-            <choice>Suero del Súper Soldado</choice>
             <choice>Una picadura de araña</choice>
             <choice>Un rayo cósmico</choice>
         </choices>
