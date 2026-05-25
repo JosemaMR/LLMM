@@ -118,7 +118,7 @@
 
     <question id="10">
         <wording>¿Quién es el director original de S.H.I.E.L.D. que reúne a los Vengadores?</wording>
-        <image></image>
+        <image>images/Shield.jpg</image>
         <choices>
             <choice correct="yes">Nick Furia</choice>
             <choice>Phil Coulson</choice>
@@ -139,7 +139,7 @@
     </question>
 
     <question id="12">
-        <wording>Cómo obtuvo Daredevil su icónico traje rojo?</wording>
+        <wording>Cómo obtuvo Daredevil su traje rojo?</wording>
         <image>images/Daredevil.jpg</image>
         <choices>
             <choice correct="yes">Lo cosió él mismo usando la tela del viejo camisón de boxeo de su difunto padre, Jack "Demoledor" Murdock</choice>
