@@ -63,12 +63,12 @@
 
     <question id="5">
         <wording>¿Qué gema del infinito está incrustada en la frente de Visión?</wording>
-        <image></image>
+        <image>images/Gema.jpg</image>
         <choices>
-            <choice correct="yes">Gema de la Mente</choice>
             <choice>Gema del Espacio</choice>
             <choice>Gema del Poder</choice>
             <choice>Gema del Tiempo</choice>
+            <choice correct="yes">Gema de la Mente</choice>
         </choices>
     </question>
 
