@@ -206,7 +206,7 @@
 
     <question id="18">
         <wording>¿Qué miembro de los 4 Fantásticos murió cerrando el portal de la Zona Negativa?</wording>
-        <image></image>
+        <image>images/Antorcha.jpg</image>
         <choices>
             <choice>Mr Fantástico, Reed Richards</choice>
             <choice>La mujer invisible, Sue Storm</choice>
@@ -216,13 +216,13 @@
     </question>
 
     <question id="19">
-        <wording>¿Cuál es el nombre real de Falcon, quien más tarde asume el manto del Capitán América?</wording>
-        <image></image>
+        <wording>¿Cuál es el origen real de Ultrón?</wording>
+        <image>images/Ultron.jpg</image>
         <choices>
-            <choice correct="yes">Sam Wilson</choice>
-            <choice>Bucky Barnes</choice>
-            <choice>Rhodey Rhodes</choice>
-            <choice>Clint Barton</choice>
+            <choice>Fue un programa de defensa global creado en secreto por Hydra utilizando un software alienígena recuperado de la nave de Thanos</choice>
+            <choice>Fue creado por Tony Stark y Bruce Banner utilizando la Inteligencia Artificial contenida dentro del cetro de Loki para proteger la Tierra de amenazas espaciales</choice>
+            <choice>Nació de forma espontánea en internet a partir de un virus informático militar ruso que cobró conciencia propia tras absorber datos de Industrias Stark</choice>
+            <choice correct="yes">Fue construido en un laboratorio por Hank Pym, quien basó los patrones cerebrales de Ultrón en su propia mente</choice>
         </choices>
     </question>
 
