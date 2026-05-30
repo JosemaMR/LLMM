@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+
+<pedidos>
+
+    <pedido>
+        
+        <empresa CIF="A12345678" sector="tecnologia" actividad="software servicios">
+            Tech Solutions
+        </empresa>
+
+        <producto id="P1">Portátil</producto>
+        <producto id="P2">Ratón</producto>
+
+        <fecha>2026-05-30</fecha>
+
+        <factura numfactura="F001" cliente="A12345678" productos="P1 P2">
+            <emisor>&MiEmpresa;</emisor>
+            <total>1200</total>
+            <fecha>2026-05-30</fecha>
+        </factura>
+
+    </pedido>
+
+    <pedido>
+
+        <persona NIF="12345678Z">
+            Juan García
+        </persona>
+
+        <producto id="P3">Teclado</producto>
+
+        <fecha>2026-05-29</fecha>
+
+    </pedido>
+
+</pedidos>
