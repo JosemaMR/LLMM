@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos SYSTEM "alumnos.dtd">
+
+<alumnos>
+
+    <alumno num_alumno="A001" ayudante="A002" sexo="hombre">
+        <nombre>Juan</nombre>
+        <apellidos>Pérez García</apellidos>
+        <domicilio>Calle Mayor 15</domicilio>
+
+        <telefono tipo="propio">600123456</telefono>
+        <telefono tipo="padre">600654321</telefono>
+
+        <equipo_futbol>Séneca FC</equipo_futbol>
+
+        <aficion>Programación</aficion>
+        <aficion>Videojuegos</aficion>
+
+        <provincia>Cádiz</provincia>
+
+        <comentarios>
+            Alumno responsable.
+            <detalle>Participa en actividades extraescolares.</detalle>
+        </comentarios>
+
+        <altura>175</altura>
+
+        <evaluacion>1</evaluacion>
+        <calificacion>8</calificacion>
+
+        <evaluacion>2</evaluacion>
+        <calificacion>9</calificacion>
+    </alumno>
+
+    <alumno num_alumno="A002" sexo="mujer">
+        <nombre>María</nombre>
+        <apellidos>López Ruiz</apellidos>
+        <domicilio>Avenida Andalucía 10</domicilio>
+
+        <telefono tipo="propio">611222333</telefono>
+
+        <aficion>Lectura</aficion>
+
+        <pais>Francia</pais>
+
+        <evaluacion>1</evaluacion>
+        <calificacion>10</calificacion>
+    </alumno>
+
+</alumnos>
