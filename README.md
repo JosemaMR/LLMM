@@ -121,7 +121,9 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 
 | Ejercicio | Descripción |
 |-----------|-------------|
-| [Ejercicio 1](./TEMA4/ejercicio1xml.xml) | Preguntas|
+| [Ejercicio 1](./TEMA5/Ejercicio1dtd.xml) | DTD 1|
+| [Ejercicio 1](./TEMA5/EJERCICIO%202/alumnos.xml) | DTD 2|
+| [Ejercicio 1](./TEMA5/EJERCICIO%203/pedidos.xml) | DTD 3|
 
 ## Quarterly Work 3. Web Cuestionario Marvel
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20PREGUNTAS%20MARVEL/index.html)
