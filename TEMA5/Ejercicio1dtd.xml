@@ -27,7 +27,7 @@
 
     <modulo>
         <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
+        <descripcion>Diseño y gestión de bases de datos relacionales</descripcion>
         <codigo>0484</codigo>
         <profesor>Eduardo</profesor>
         <fechas>
@@ -45,8 +45,8 @@
     </modulo>
       <modulo>
         <nombre>Entornos de desarrolo</nombre>
-        <descripcion></descripcion>
-        <codigo>0484</codigo>
+        <descripcion>...</descripcion>
+        <codigo>0485</codigo>
         <profesor>Juanma</profesor>
         <fechas>
             <inicio>
@@ -62,10 +62,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>Lenguajes de Marcas</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0486</codigo>
+        <profesor>Ignacio</profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
@@ -80,10 +80,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>Sistemas Informáticos</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0486</codigo>
+        <profesor>Juanmi</profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
@@ -98,10 +98,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>IPE</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0487</codigo>
+        <profesor>África/profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
@@ -116,10 +116,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>Sostenibilidad</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0488</codigo>
+        <profesor>Rosa</profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
@@ -134,10 +134,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>Digitalización</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0489</codigo>
+        <profesor>Juanma</profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
@@ -152,10 +152,10 @@
         </fechas>
     </modulo>
       <modulo>
-        <nombre>Bases de Datos</nombre>
-        <descripcion>Diseño y gestión de bases de datos relacionales.</descripcion>
-        <codigo>0484</codigo>
-        <profesor>Juan Pérez</profesor>
+        <nombre>Programación</nombre>
+        <descripcion>...</descripcion>
+        <codigo>0490</codigo>
+        <profesor>Toñi</profesor>
         <fechas>
             <inicio>
                 <dia>15</dia>
