@@ -1,0 +1,119 @@
+<!-- Apartado 1 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="/">
+<html>
+<body>
+<ul>
+    <xsl:for-each select="universidad/carreras/carrera">
+        <li>
+            <xsl:value-of select="nombre"/>
+        </li>
+    </xsl:for-each>
+</ul>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
+
+<!-- Apartado 2 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="/">
+<html>
+<body>
+<ul>
+    <xsl:for-each select="universidad/asignaturas/asignatura">
+        <li>
+            <xsl:value-of select="nombre"/>
+        </li>
+    </xsl:for-each>
+</ul>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
+
+<!-- Apartado 3 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="/">
+<html>
+<body>
+    <xsl:for-each select="universidad/alumnos/alumno">
+        <p>
+            <xsl:value-of select="apellido1"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="apellido2"/>
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="nombre"/>
+        </p>
+    </xsl:for-each>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
+
+<!-- Apartado 4 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="/">
+<html>
+<body>
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Plan</th>
+        <th>Créditos</th>
+    </tr>
+
+    <xsl:for-each select="universidad/carreras/carrera">
+        <tr>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="plan"/></td>
+            <td><xsl:value-of select="creditos"/></td>
+        </tr>
+    </xsl:for-each>
+
+</table>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
+
+<!-- Apartado 5 -->
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
+<xsl:template match="/">
+<html>
+<body>
+<table border="1">
+    <tr>
+        <th>Nombre</th>
+        <th>Créditos teóricos</th>
+        <th>Créditos prácticos</th>
+    </tr>
+
+    <xsl:for-each select="universidad/asignaturas/asignatura">
+        <tr>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="creditos_teoricos"/></td>
+            <td><xsl:value-of select="creditos_practicos"/></td>
+        </tr>
+    </xsl:for-each>
+
+</table>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
