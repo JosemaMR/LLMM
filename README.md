@@ -130,7 +130,7 @@ Este repositorio incluye actividades llevadas a cabo en el módulo **Lenguajes d
 | [Ejercicio 7](./TEMA5/ejercicio7XPath.txt) | XPath 2 |
 | [Ejercicio 8](./TEMA5/ejercicio8XPath.txt) | XPath 3 |
 | [Ejercicio 8](./TEMA5/ejercicio8.xml) | XLST |
-
+| [Ejercicio 8](./TEMA5/ejercicio10xml.html) | RSS |
 
 ## Quarterly Work 3. Web Cuestionario Marvel
 [Quarterly Work](https://josemamr.github.io/LLMM/WEB%20PREGUNTAS%20MARVEL/index.html)
