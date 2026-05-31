@@ -1,0 +1,27 @@
+Nombre de los módulos del ciclo "Sistemas Microinformáticos y Redes" (sin usar SMR explícitamente)
+. /ies/modulos/modulo[ciclo = /ies/ciclos/ciclo[nombre='Sistemas Microinformáticos y Redes']/@id]/nombre/text()
+
+Nombre de los ciclos que incluyen el módulo "Lenguajes de marcas y sistemas de gestión de información"
+. /ies/ciclos/ciclo[@id = /ies/modulos/modulo[nombre='Lenguajes de marcas y sistemas de gestión de información']/ciclo]/nombre/text()
+
+Nombre de los módulos de ciclos de Grado Superior
+. /ies/modulos/modulo[ciclo = /ies/ciclos/ciclo[grado='Superior']/@id]/nombre/text()
+
+Nombre de los módulos de ciclos cuyo título se aprobó en 2008
+. /ies/modulos/modulo[ciclo = /ies/ciclos/ciclo[decretoTitulo/@año=2008]/@id]/nombre/text()
+
+Grado de los ciclos con módulos de primer curso
+. /ies/ciclos/ciclo[@id = /ies/modulos/modulo[curso=1]/ciclo]/grado/text()
+
+
+
+
+
+
+
+
+
+
+
+
+
