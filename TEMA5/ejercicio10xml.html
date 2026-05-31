@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lector RSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .noticia {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #0066cc;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Noticias RSS</h1>
+    <div id="rss"></div>
+
+    <script>
+        // RSS de ejemplo
+        const rssURL = "https://feeds.bbci.co.uk/news/world/rss.xml";
+
+        // Usamos rss2json para evitar problemas CORS
+        const apiURL =
+            "https://api.rss2json.com/v1/api.json?rss_url=" +
+            encodeURIComponent(rssURL);
+
+        fetch(apiURL)
+            .then(response => response.json())
+            .then(data => {
+                let salida = "";
+
+                data.items.forEach(item => {
+                    salida += `
+                        <div class="noticia">
+                            <h2>${item.title}</h2>
+                            <p>${item.description}</p>
+                            <a href="${item.link}" target="_blank">
+                                Leer noticia completa
+                            </a>
+                        </div>
+                    `;
+                });
+
+                document.getElementById("rss").innerHTML = salida;
+            })
+            .catch(error => {
+                console.error("Error:", error);
+            });
+    </script>
+
+</body>
+</html>
