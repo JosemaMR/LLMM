@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday Protocol</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuente estilo terminal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================
+         TERMINAL
+    ========================== -->
+
+    <section id="terminal" class="screen terminal-screen">
+
+        <div class="terminal-box">
+
+            <div class="terminal-header">
+                BIRTHDAY_SYSTEM.exe
+            </div>
+
+            <div class="terminal-content">
+
+                <p>> INITIALIZING...</p>
+                <p>> LOADING SECURITY PROTOCOL...</p>
+                <p>> SYSTEM LOCKED.</p>
+
+                <br>
+
+                <p class="warning">
+                    ACCESO RESTRINGIDO
+                </p>
+
+                <p>Introduce la contraseña:</p>
+
+                <div class="password-line">
+                    <span>guest@birthday:~$</span>
+
+                    <input
+                        type="password"
+                        id="password"
+                        autocomplete="off"
+                        autofocus
+                    >
+                </div>
+
+                <button id="access-button">
+                    [ ACCEDER ]
+                </button>
+
+                <p id="error-message" class="error"></p>
+
+                <div class="hint">
+                    💡 PISTA:
+                    <span>"El día en que todo empezó..."</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MENSAJES
+    ========================== -->
+
+    <section id="messages" class="screen message-screen hidden">
+
+        <div class="message-container">
+
+            <div id="message" class="message">
+                Bueno...
+            </div>
+
+            <div class="tap-indicator">
+                Toca la pantalla para continuar
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ACCESO CONCEDIDO
+    ========================== -->
+
+    <section id="loading" class="screen loading-screen hidden">
+
+        <div class="loading-content">
+
+            <p>> PASSWORD ACCEPTED ✓</p>
+            <p>> IDENTITY VERIFIED ✓</p>
+            <p>> ACCESS GRANTED.</p>
+
+            <br>
+
+            <p>> INITIATING BIRTHDAY PROTOCOL...</p>
+
+            <div class="progress">
+                <div id="progress-bar"></div>
+            </div>
+
+            <p id="loading-percent">0%</p>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
