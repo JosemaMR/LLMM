@@ -26,7 +26,7 @@ const loadingPercent = document.getElementById("loading-percent");
 // Luego podemos cambiarla por una que tenga
 // significado para tu amigo.
 
-const PASSWORD = "cumpleanos";
+const PASSWORD = "julai";
 
 
 /* =========================
@@ -35,9 +35,9 @@ const PASSWORD = "cumpleanos";
 
 const messages = [
 
-    "Bueno...",
+    "Ere un julai",
 
-    "Hoy es un día bastante importante.",
+    "Y das caló",
 
     "Porque hace unos cuantos años nació alguien bastante importante para mí.",
 
