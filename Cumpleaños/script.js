@@ -45,15 +45,15 @@ const messages = [
 
     "Contigo <3",
 
-    "Algunas bastante buenas.",
+    "Ojalá que algún día",
 
-    "Otras que probablemente sea mejor no recordar.",
+    "Te den",
 
-    "Pero todas han merecido la pena.",
+    "Lo que vale er piso",
 
-    "Así que simplemente quería decirte una cosa.",
+    "Compi",
 
-    "Gracias por estar ahí.",
+    "Ya enserio...",
 
     "Y ahora sí...",
 
