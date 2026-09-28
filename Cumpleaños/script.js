@@ -39,11 +39,11 @@ const messages = [
 
     "Y das caló",
 
-    "Porque hace unos cuantos años nació alguien bastante importante para mí.",
+    "Pero en verdá me gusta",
 
-    "Y después de todos estos años...",
+    "Meter la mano en er potaje",
 
-    "hemos acabado viviendo unas cuantas historias 😂",
+    "Contigo <3",
 
     "Algunas bastante buenas.",
 
